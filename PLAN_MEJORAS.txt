@@ -1,0 +1,225 @@
+==============================================================
+  PLAN DE MEJORAS — Ciencias Naturales Game.html
+  Fecha: 2026-04-18
+==============================================================
+
+ASSETS DISPONIBLES
+------------------
+BUTTON MENUS/
+  - BUTTO ATRAS.png       → botón "Volver"
+  - BUTTON ADELANTE.png   → botón "Siguiente / Continuar"
+  - BUTTON PLAY.png       → botón "Empezar / Comenzar"
+  - BUTTON REINICIAR.png  → botón "Reiniciar / Volver a jugar"
+
+ICONS/ (27 íconos temáticos)
+  OJO, NARIZ, OREJA, LENGUA, PIEL         → Mundo 1 (Sentidos)
+  BLOQUEADOR, GORRO, SOL, VOLUMEN,
+  LAVAR MANOS, PELIGRO CALOR              → Mundo 2 (Cuidado)
+  CAMINAR, CORRER NIÑO, SALTAR NIÑA,
+  PELOTA, BICICLETA                       → Mundo 3 (Movimiento)
+  MANZANA, BROCOLI, PESCADO, LECHE,
+  FRITAS, DULCES, BEBIDA                  → Mundo 4 (Alimentación)
+  TROFEO, ESTRELLA, MAPA                  → UI general / Mundo 5
+  TELEVISION                              → respuesta incorrecta / pantalla
+
+REACCIONES/
+  - REACCIONES CORRECTO.png  → notificación de acierto
+  - REACCIONES FALLO.png     → notificación de fallo
+
+==============================================================
+FASE 1 — BOTONES CON IMAGEN (reemplazar botones de texto)
+==============================================================
+Objetivo: Usar los PNGs de BUTTON MENUS como botones reales.
+Método: <button> con <img> adentro; el <img> lleva object-fit:contain
+        para respetar proporciones. Sin text visible sobre la imagen.
+        Hover: scale(1.07). Active: scale(0.96).
+
+Mapeo de botones:
+  BUTTON PLAY.png       → .intro-play-btn ("¡Empezar!")
+                          .start-btn ("¡COMENZAR!")
+  BUTTON ADELANTE.png   → .next-btn ("Siguiente →" / "Ver resultado")
+  BUTTO ATRAS.png       → .back-link ("← Volver al mapa")
+  BUTTON REINICIAR.png  → .action-btn.primary ("🔄 Volver a jugar")
+                          .final-play-btn ("🔄 ¡Jugar de nuevo!")
+                          .action-btn.secondary ("🗺️ Ir al mapa") [usar ATRAS]
+
+Regla de tamaño: botones principales max-width 260px, height auto.
+                 Botón ATRAS max-width 160px.
+                 NUNCA fijar width+height fijos que rompan proporción.
+
+==============================================================
+FASE 2 — ÍCONOS TEMÁTICOS EN PREGUNTAS Y MUNDOS
+==============================================================
+Objetivo: Mostrar el ícono PNG relevante junto a cada pregunta
+          y en las tarjetas de mundo del mapa.
+
+2A. Tarjetas del mapa (MapScreen / world-card)
+    Reemplazar el emoji del icono por el PNG correspondiente:
+      Mundo 1 (sentidos)  → OJO.png como ícono principal
+      Mundo 2 (cuidado)   → BLOQUEADOR.png o GORRO.png
+      Mundo 3 (movimiento)→ CORRER NIÑO.png o SALTAR NIÑA.png
+      Mundo 4 (alimentos) → MANZANA.png
+      Mundo 5 (final)     → TROFEO.png
+    Tamaño: 48x48px con object-fit:contain.
+
+2B. Pantalla de pregunta (QuestionScreen)
+    Mapear cada pregunta por su ID/prompt a un ícono:
+      - Preguntas sobre vista/ojos → OJO.png
+      - Preguntas sobre oído/oídos → OREJA.png
+      - Preguntas sobre nariz/olfato → NARIZ.png
+      - Preguntas sobre lengua/gusto → LENGUA.png
+      - Preguntas sobre piel/tacto  → PIEL.png
+      - Preguntas sobre bloqueador/sol → BLOQUEADOR.png / SOL.png
+      - Preguntas sobre volumen/música → VOLUMEN.png
+      - Preguntas sobre lavar manos → LAVAR MANOS.png
+      - Preguntas sobre calor/peligro → PELIGRO CALOR.png
+      - Preguntas sobre gorro → GORRO.png
+      - Preguntas sobre correr → CORRER NIÑO.png
+      - Preguntas sobre caminar → CAMINAR.png
+      - Preguntas sobre saltar → SALTAR NIÑA.png
+      - Preguntas sobre pelota/jugar → PELOTA.png
+      - Preguntas sobre bicicleta → BICICLETA.png
+      - Preguntas sobre televisión → TELEVISION.png
+      - Preguntas sobre manzana/fruta → MANZANA.png
+      - Preguntas sobre brocoli/ensalada → BROCOLI.png
+      - Preguntas sobre pescado → PESCADO.png
+      - Preguntas sobre leche → LECHE.png
+      - Preguntas sobre papas fritas → FRITAS.png
+      - Preguntas sobre dulces/golosinas → DULCES.png
+      - Preguntas sobre bebida → BEBIDA.png
+    Ícono: aparece en .q-card-header, a la derecha del texto.
+    Tamaño: 56x56px, object-fit:contain, sin overlap con el texto.
+    Si no hay match → sin ícono (no forzar).
+
+2C. Pantalla de fin de etapa (WorldEndScreen)
+    Ícono grande del mundo completado centrado arriba (72px).
+
+==============================================================
+FASE 3 — SISTEMA DE REACCIONES (notificaciones overlay)
+==============================================================
+Objetivo: Mostrar REACCIONES CORRECTO o REACCIONES FALLO
+          como overlay flotante animado al responder.
+
+Comportamiento:
+  - Al acertar: REACCIONES CORRECTO.png aparece desde abajo,
+    escala de 0.6→1.1→1, permanece ~1.2s, luego desaparece.
+    Se combina con el burst de partículas existente.
+  - Al fallar: REACCIONES FALLO.png aparece igual.
+    Permanece ~1.5s.
+
+Posición: centrado en pantalla, z-index 200.
+          position:fixed, bottom 15%, left 50%, transform translateX(-50%).
+Tamaño: max-width 280px, height auto (respetar proporción).
+NO se superpone con el contenido de la pregunta porque es overlay.
+
+Implementación React:
+  - Estado: reactionImg (null | 'correcto' | 'fallo')
+  - Componente <ReactionOverlay> que muestra el PNG con animación.
+  - Se dispara en handleAnswer(), desaparece con setTimeout.
+
+==============================================================
+FASE 4 — FLUJO DE FALLO: NO AVANZAR, PERMITIR REINTENTO
+==============================================================
+Objetivo: Tono amigable. Si fallas, la pregunta te espera.
+
+Comportamiento nuevo al fallar:
+  1. Mostrar REACCIONES FALLO.png (overlay, ~1.5s).
+  2. Hacer "camera shake" — la tarjeta .q-card anima con
+     keyframe @cameraShake (translateX + ligero rotate).
+  3. Después de ~1.8s: limpiar feedback, selectedOpt,
+     y RE-SHUFFLE las opciones de la misma pregunta.
+     La pregunta vuelve a estar activa para intentar de nuevo.
+  4. NO se suma al contador de incorrectas para la puntuación
+     del reintento (solo cuenta la respuesta final correcta).
+     ALTERNATIVA SIMPLE: cada intento cuenta; la estrella
+     refleja naturalmente cuántas acertó de 5.
+     → DECISIÓN: usar la alternativa simple (más honesta).
+  5. El botón "Siguiente" NO aparece al fallar.
+     Solo aparece "Siguiente" tras acertar.
+
+Tono del mensaje de fallo:
+  Reemplazar "💪 ¡Casi! era: X" por mensajes como:
+  - "¡Casi! Inténtalo de nuevo 🌟"
+  - "¡Tú puedes! Una más 💪"
+  - "¡No te rindas, {name}! 🚀"
+  (El mensaje desaparece cuando se limpie el feedback.)
+
+Efecto cameraShake CSS:
+  @keyframes cameraShake {
+    0%,100% { transform: translateX(0) rotate(0deg); }
+    15%     { transform: translateX(-10px) rotate(-1.5deg); }
+    30%     { transform: translateX(10px) rotate(1.5deg); }
+    45%     { transform: translateX(-8px) rotate(-1deg); }
+    60%     { transform: translateX(8px) rotate(1deg); }
+    75%     { transform: translateX(-4px); }
+    90%     { transform: translateX(4px); }
+  }
+  Duración: 0.55s. Se aplica clase .camera-shake al .q-card.
+
+==============================================================
+FASE 5 — ESTRELLAS AL COMPLETAR ETAPA (fix WorldEndScreen)
+==============================================================
+Problema actual: Las estrellas emoji existen pero la animación
+  de encendido puede no dispararse si `stars` llega como 0
+  o si el useEffect no re-ejecuta.
+
+Fix:
+  - Usar ICON ESTRELLA.png en lugar de emoji ⭐.
+  - Tres imágenes <img src="ICONS/ICON ESTRELLA.png"> por fila.
+  - Estado `litStars` animado con delays: 0ms, 450ms, 900ms.
+  - Estrella apagada: filter grayscale(1) opacity(0.3) scale(0.85).
+  - Estrella encendida: filter none, drop-shadow amarillo,
+    scale(1.3), animation starPop.
+  - Tamaño de cada estrella: 56px × 56px, object-fit:contain.
+  - Las 3 estrellas en fila horizontal, gap 16px, centradas.
+  - Asegurarse de pasar `stars` correctamente desde handleNext()
+    (actualmente correctCount puede no haber actualizado aún
+    porque setCorrectCount es async → leer valor calculado local).
+
+Fix crítico en handleNext():
+  Calcular stars ANTES de actualizar estado:
+    const finalCorrect = correctCount + (lastWasCorrect ? 1 : 0);
+    → ya está correcto en el código, solo verificar el flujo.
+
+==============================================================
+FASE 6 — PULIDO FINAL Y NO SUPERPOSICIÓN
+==============================================================
+- Revisar que ningún <img> de ícono quede encima de texto de opciones.
+- Todos los <img> llevan: display:block, max-width:100%,
+  object-fit:contain, height:auto (o dimensión fija con contain).
+- Los botones-imagen no tienen texto hijo visible;
+  el aria-label del <button> lleva el texto para accesibilidad.
+- En mobile (max-width:480px): botones con max-width:220px.
+- Verificar que .q-options con dos columnas no se apriete con ícono.
+  Si hay ícono en header: reducir font-size de .q-text en 10%.
+
+==============================================================
+ORDEN DE IMPLEMENTACIÓN
+==============================================================
+1. Fase 5 primero (fix estrellas — es el bug más crítico y simple).
+2. Fase 4 (flujo de fallo y cameraShake — cambia la lógica core).
+3. Fase 3 (reacciones overlay — visual sobre la lógica ya fija).
+4. Fase 2B (íconos en preguntas — enriquecimiento visual).
+5. Fase 1 (botones imagen — reemplazo visual).
+6. Fase 2A (íconos en mapa — último toque).
+7. Fase 6 (revisión final de superposición y proporciones).
+
+==============================================================
+ARCHIVOS A MODIFICAR
+==============================================================
+  Ciencias Naturales Game.html   (único archivo, todo en uno)
+
+RUTAS DE ASSETS (relativas al HTML):
+  ICONS/ICON ESTRELLA.png
+  ICONS/ICON OJO.png
+  ... etc.
+  REACCIONES/REACCIONES CORRECTO.png
+  REACCIONES/REACCIONES FALLO.png
+  BUTTON MENUS/BUTTON PLAY.png
+  BUTTON MENUS/BUTTON ADELANTE.png
+  BUTTON MENUS/BUTTO ATRAS.png
+  BUTTON MENUS/BUTTON REINICIAR.png
+
+==============================================================
+FIN DEL PLAN
+==============================================================

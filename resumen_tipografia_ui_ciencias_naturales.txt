@@ -1,0 +1,150 @@
+RESUMEN Y ANÁLISIS — TIPOGRAFÍA Y LEGIBILIDAD UI
+App: Ciencias Naturales para niños
+
+1. DIAGNÓSTICO GENERAL
+La interfaz actual prioriza lo decorativo por sobre la lectura rápida.
+El principal problema no es solo la fuente, sino la combinación de:
+- mezcla de estilos tipográficos
+- jerarquía visual débil
+- contraste insuficiente en textos pequeños
+- exceso de elementos compitiendo por atención
+
+Para una app infantil, la prioridad debe ser:
+CLARA + INMEDIATA + AMABLE
+no:
+BONITA + DECORATIVA + TIERNA
+
+2. PROBLEMAS DETECTADOS
+
+Pantalla inicial:
+- El logo funciona como ilustración, pero no debe marcar el estilo de toda la UI.
+- Hay demasiadas “voces” tipográficas: logo, texto intermedio, input, botón.
+- “¡El Juego!” agrega ruido y no ayuda a la acción principal.
+- El campo con el nombre no comunica con suficiente claridad qué debe hacer el niño.
+- El botón INICIAR destaca, pero compite con demasiados elementos visuales.
+
+Pantalla de mundos:
+- Los títulos de mundos son más claros que en la portada, pero aún puede mejorar la jerarquía.
+- Las descripciones secundarias son pequeñas y con poco contraste.
+- La etiqueta “MUNDO 1 / 2 / 3...” no debe competir con el título real del mundo.
+- El sistema se ve amigable, pero no informa con la rapidez necesaria.
+
+3. CRITERIOS DE LEGIBILIDAD PARA NIÑOS
+La tipografía ideal para esta app debe tener:
+- formas abiertas
+- buena separación entre letras
+- trazos simples y reconocibles
+- poco ruido visual
+- alto contraste con el fondo
+- uso consistente en toda la interfaz
+
+Evitar:
+- fuentes manuscritas
+- fuentes script
+- fuentes muy condensadas
+- letras ambiguas entre I / l / 1
+- exceso de mayúsculas en frases largas
+- mezcla de muchas tipografías en una misma pantalla
+
+4. RECOMENDACIÓN TIPOGRÁFICA
+
+Opción recomendada:
+- Títulos y botones: Fredoka
+- Textos funcionales, descripciones, input y etiquetas: Nunito
+
+Opción más segura:
+- Toda la UI en Nunito
+- Nunito ExtraBold para títulos
+- Nunito Bold para botones
+- Nunito SemiBold / Medium para textos secundarios
+
+Opción más infantil, con más cuidado:
+- Baloo 2 para títulos
+- Nunito para el resto
+
+Conclusión:
+Si se quiere claridad inmediata y poco riesgo, la mejor decisión es:
+NUNITO PARA TODA LA UI
+Si se quiere un poco más de carácter visual sin perder legibilidad:
+FREDOKA + NUNITO
+
+5. CAMBIOS RECOMENDADOS
+
+Pantalla inicial:
+Dejarla así:
+- logo arriba
+- pregunta clara: ¿Cómo te llamas?
+- campo de texto
+- botón Iniciar
+
+Eliminar o reducir mucho:
+- “¡El Juego!”
+
+Mejor estructura:
+¿Cómo te llamas?
+[ Escribe tu nombre ]
+[ Iniciar ]
+
+Campo de texto:
+- no usar el nombre por defecto en mayúsculas completas
+- preferir “Juan” en vez de “JUAN”
+- usar placeholder claro: “Escribe tu nombre”
+- la etiqueta debe ir arriba o fuera del input
+
+Pantalla de mundos:
+Jerarquía sugerida:
+- pequeño: MUNDO 1
+- grande: Detective de los sentidos
+- mediano: descripción breve y clara
+
+Ejemplo:
+MUNDO 1
+Detective de los sentidos
+Adivina qué sentido ayuda en cada caso.
+
+6. TAMAÑOS RECOMENDADOS EN MÓVIL
+
+Pantalla inicial:
+- título principal o pregunta: 28 a 36 px
+- label del input: 22 a 28 px
+- texto dentro del input: 22 a 26 px
+- botón principal: 26 a 32 px
+
+Tarjetas de mundos:
+- nombre del mundo: 20 a 24 px
+- descripción: 15 a 18 px
+- etiqueta “MUNDO X”: 12 a 14 px
+
+7. CONTRASTE Y COLOR
+El contraste actual es insuficiente en textos secundarios.
+Los fondos pastel funcionan, pero los textos grises claros pierden fuerza.
+
+Usar:
+- títulos: azul muy oscuro o casi negro
+- textos secundarios: gris oscuro real
+- evitar gris pálido sobre lila, celeste, verde agua o beige
+
+8. DECISIÓN FINAL RECOMENDADA
+Mantener:
+- logo ilustrado
+- fondos suaves
+- tarjetas redondeadas
+- tono infantil amable
+
+Cambiar de inmediato:
+- unificar tipografía UI
+- reducir ruido en portada
+- oscurecer textos secundarios
+- acortar textos descriptivos
+- reforzar jerarquía visual
+
+RECOMENDACIÓN FINAL:
+- Logo: puede seguir siendo decorativo
+- UI completa: Nunito
+- Títulos y botones: Nunito ExtraBold o Fredoka
+- Textos secundarios: Nunito SemiBold
+
+9. SÍNTESIS EJECUTIVA
+La app no falla por verse infantil; falla porque no informa lo bastante rápido.
+Para niños que están leyendo, lo importante no es adornar más, sino facilitar la lectura.
+La mejor ruta es construir una interfaz amable, pero con una sola lógica tipográfica, mejor contraste y mensajes más directos.

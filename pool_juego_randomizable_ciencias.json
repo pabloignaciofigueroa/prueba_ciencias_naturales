@@ -1,0 +1,962 @@
+{
+  "meta": {
+    "title": "Arcade Natural · Modo corto y rejugable",
+    "version": "1.0",
+    "source_json": "base_preguntas_ciencias_naturales.json",
+    "questions_per_section": 5,
+    "design_rule": "Cada sección muestra máximo 5 preguntas por partida.",
+    "replay_rule": "Al volver a jugar, se vuelve a sortear 1 pregunta por bucket y se evita repetir las últimas vistas si hay stock.",
+    "ui_rule": "No mostrar todas las preguntas a la primera. Mostrar una ronda corta, cierre rápido y botón 'Volver a jugar'."
+  },
+  "sections": [
+    {
+      "id": "section-1",
+      "theme": "cinco_sentidos",
+      "title": "Mundo 1 · Detective de los sentidos",
+      "hook": "Descubre qué sentido ayuda en cada caso.",
+      "questions_per_run": 5,
+      "draw_plan": [
+        "relacionar",
+        "completar",
+        "situacion",
+        "verdadero_falso",
+        "adivinanza"
+      ],
+      "pools": {
+        "relacionar": [
+          {
+            "id": "SEN-001",
+            "source_id": "P001",
+            "type": "multiple_choice",
+            "prompt": "Vista",
+            "options": [
+              "ojos",
+              "nariz",
+              "lengua",
+              "piel"
+            ],
+            "answer": "ojos"
+          },
+          {
+            "id": "SEN-002",
+            "source_id": "P002",
+            "type": "multiple_choice",
+            "prompt": "Oído",
+            "options": [
+              "ojos",
+              "oídos",
+              "lengua",
+              "nariz"
+            ],
+            "answer": "oídos"
+          },
+          {
+            "id": "SEN-003",
+            "source_id": "P003",
+            "type": "multiple_choice",
+            "prompt": "Olfato",
+            "options": [
+              "nariz",
+              "lengua",
+              "piel",
+              "oídos"
+            ],
+            "answer": "nariz"
+          }
+        ],
+        "completar": [
+          {
+            "id": "SEN-004",
+            "source_id": "P006",
+            "type": "multiple_choice",
+            "prompt": "Con los _____ vemos.",
+            "options": [
+              "ojos",
+              "oídos",
+              "nariz"
+            ],
+            "answer": "ojos"
+          },
+          {
+            "id": "SEN-005",
+            "source_id": "P007",
+            "type": "multiple_choice",
+            "prompt": "Con la _____ olemos.",
+            "options": [
+              "lengua",
+              "nariz",
+              "piel"
+            ],
+            "answer": "nariz"
+          },
+          {
+            "id": "SEN-006",
+            "source_id": "P008",
+            "type": "multiple_choice",
+            "prompt": "Con la _____ probamos sabores.",
+            "options": [
+              "lengua",
+              "nariz",
+              "mano"
+            ],
+            "answer": "lengua"
+          }
+        ],
+        "situacion": [
+          {
+            "id": "SEN-007",
+            "source_id": "P016",
+            "type": "multiple_choice",
+            "prompt": "Escuchar el ladrido de un perro.",
+            "options": [
+              "vista",
+              "oído",
+              "gusto"
+            ],
+            "answer": "oído"
+          },
+          {
+            "id": "SEN-008",
+            "source_id": "P019",
+            "type": "multiple_choice",
+            "prompt": "Sentir agua fría.",
+            "options": [
+              "tacto",
+              "vista",
+              "gusto"
+            ],
+            "answer": "tacto"
+          },
+          {
+            "id": "SEN-009",
+            "source_id": "P020",
+            "type": "multiple_choice",
+            "prompt": "Probar una naranja.",
+            "options": [
+              "gusto",
+              "olfato",
+              "oído"
+            ],
+            "answer": "gusto"
+          }
+        ],
+        "verdadero_falso": [
+          {
+            "id": "SEN-010",
+            "source_id": "P026",
+            "type": "multiple_choice",
+            "prompt": "Con la nariz podemos oler.",
+            "options": [
+              "V",
+              "F"
+            ],
+            "answer": "V"
+          },
+          {
+            "id": "SEN-011",
+            "source_id": "P027",
+            "type": "multiple_choice",
+            "prompt": "Con los ojos podemos escuchar.",
+            "options": [
+              "V",
+              "F"
+            ],
+            "answer": "F"
+          },
+          {
+            "id": "SEN-012",
+            "source_id": "P029",
+            "type": "multiple_choice",
+            "prompt": "El tacto nos ayuda a sentir frío o calor.",
+            "options": [
+              "V",
+              "F"
+            ],
+            "answer": "V"
+          }
+        ],
+        "adivinanza": [
+          {
+            "id": "SEN-013",
+            "source_id": "P045",
+            "type": "multiple_choice",
+            "prompt": "Sirvo para ver colores, formas y letras.",
+            "options": [
+              "vista",
+              "oído",
+              "olfato"
+            ],
+            "answer": "vista"
+          },
+          {
+            "id": "SEN-014",
+            "source_id": "P047",
+            "type": "multiple_choice",
+            "prompt": "Sirvo para oler flores, humo o comida.",
+            "options": [
+              "olfato",
+              "gusto",
+              "tacto"
+            ],
+            "answer": "olfato"
+          },
+          {
+            "id": "SEN-015",
+            "source_id": "P049",
+            "type": "multiple_choice",
+            "prompt": "Sirvo para sentir frío, calor, suave o áspero.",
+            "options": [
+              "tacto",
+              "oído",
+              "vista"
+            ],
+            "answer": "tacto"
+          }
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "theme": "cuidado_sentidos",
+      "title": "Mundo 2 · Escudo protector",
+      "hook": "Elige qué cuida y qué daña tus sentidos.",
+      "questions_per_run": 5,
+      "draw_plan": [
+        "cuida_dana",
+        "bien_mal",
+        "emparejar",
+        "accion_correcta",
+        "decision"
+      ],
+      "pools": {
+        "cuida_dana": [
+          {
+            "id": "CAR-001",
+            "source_id": "P050",
+            "type": "multiple_choice",
+            "prompt": "Leer con buena luz.",
+            "options": [
+              "Cuida",
+              "Daña"
+            ],
+            "answer": "Cuida"
+          },
+          {
+            "id": "CAR-002",
+            "source_id": "P051",
+            "type": "multiple_choice",
+            "prompt": "Escuchar música muy fuerte por mucho tiempo.",
+            "options": [
+              "Cuida",
+              "Daña"
+            ],
+            "answer": "Daña"
+          },
+          {
+            "id": "CAR-003",
+            "source_id": "P054",
+            "type": "multiple_choice",
+            "prompt": "Usar bloqueador cuando hay mucho sol.",
+            "options": [
+              "Cuida",
+              "Daña"
+            ],
+            "answer": "Cuida"
+          }
+        ],
+        "bien_mal": [
+          {
+            "id": "CAR-004",
+            "source_id": "P058",
+            "type": "multiple_choice",
+            "prompt": "Mirar la televisión muy de cerca.",
+            "options": [
+              "Bien",
+              "Mal"
+            ],
+            "answer": "Mal"
+          },
+          {
+            "id": "CAR-005",
+            "source_id": "P061",
+            "type": "multiple_choice",
+            "prompt": "Usar gorro o bloqueador al sol.",
+            "options": [
+              "Bien",
+              "Mal"
+            ],
+            "answer": "Bien"
+          },
+          {
+            "id": "CAR-006",
+            "source_id": "P064",
+            "type": "multiple_choice",
+            "prompt": "Escuchar música a volumen moderado.",
+            "options": [
+              "Bien",
+              "Mal"
+            ],
+            "answer": "Bien"
+          }
+        ],
+        "emparejar": [
+          {
+            "id": "CAR-007",
+            "source_id": "P066",
+            "type": "multiple_choice",
+            "prompt": "Vista",
+            "options": [
+              "Leer con buena luz",
+              "No tocar cosas calientes",
+              "No meter objetos en la nariz"
+            ],
+            "answer": "Leer con buena luz"
+          },
+          {
+            "id": "CAR-008",
+            "source_id": "P067",
+            "type": "multiple_choice",
+            "prompt": "Oído",
+            "options": [
+              "No escuchar sonidos muy fuertes",
+              "Lavarse los dientes y las manos",
+              "Leer con buena luz"
+            ],
+            "answer": "No escuchar sonidos muy fuertes"
+          },
+          {
+            "id": "CAR-009",
+            "source_id": "P070",
+            "type": "multiple_choice",
+            "prompt": "Tacto",
+            "options": [
+              "No tocar cosas calientes",
+              "No meter objetos en la nariz",
+              "No escuchar sonidos muy fuertes"
+            ],
+            "answer": "No tocar cosas calientes"
+          }
+        ],
+        "accion_correcta": [
+          {
+            "id": "CAR-010",
+            "source_id": "P076",
+            "type": "multiple_choice",
+            "prompt": "Para cuidar los oídos:",
+            "options": [
+              "escuchar música muy fuerte",
+              "escuchar a volumen moderado"
+            ],
+            "answer": "escuchar a volumen moderado"
+          },
+          {
+            "id": "CAR-011",
+            "source_id": "P078",
+            "type": "multiple_choice",
+            "prompt": "Para cuidar la piel:",
+            "options": [
+              "tocar una olla caliente",
+              "avisar a un adulto si algo quema"
+            ],
+            "answer": "avisar a un adulto si algo quema"
+          },
+          {
+            "id": "CAR-012",
+            "source_id": "P079",
+            "type": "multiple_choice",
+            "prompt": "Para cuidar el gusto:",
+            "options": [
+              "comer con las manos sucias",
+              "lavar las manos antes de comer"
+            ],
+            "answer": "lavar las manos antes de comer"
+          }
+        ],
+        "decision": [
+          {
+            "id": "CAR-013",
+            "source_id": "P088",
+            "type": "multiple_choice",
+            "prompt": "Si la música está muy fuerte, yo…",
+            "options": [
+              "bajo el volumen",
+              "la subo más",
+              "grito más fuerte"
+            ],
+            "answer": "bajo el volumen"
+          },
+          {
+            "id": "CAR-014",
+            "source_id": "P089",
+            "type": "multiple_choice",
+            "prompt": "Si voy al sol por mucho rato, yo…",
+            "options": [
+              "uso gorro o bloqueador",
+              "miro al sol",
+              "no me cuido"
+            ],
+            "answer": "uso gorro o bloqueador"
+          },
+          {
+            "id": "CAR-015",
+            "source_id": "P091",
+            "type": "multiple_choice",
+            "prompt": "Si mis manos están sucias antes de comer, yo…",
+            "options": [
+              "las lavo",
+              "como igual",
+              "toco más cosas"
+            ],
+            "answer": "las lavo"
+          }
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "theme": "actividad_fisica",
+      "title": "Mundo 3 · Cuerpo en movimiento",
+      "hook": "Descubre qué acciones ayudan al cuerpo a estar activo.",
+      "questions_per_run": 5,
+      "draw_plan": [
+        "mover_o_no",
+        "hace_bien",
+        "completar",
+        "decision",
+        "verdadero_falso"
+      ],
+      "pools": {
+        "mover_o_no": [
+          {
+            "id": "MOV-001",
+            "source_id": "P092",
+            "type": "multiple_choice",
+            "prompt": "Correr",
+            "options": [
+              "Sí",
+              "No"
+            ],
+            "answer": "Sí"
+          },
+          {
+            "id": "MOV-002",
+            "source_id": "P096",
+            "type": "multiple_choice",
+            "prompt": "Ver televisión",
+            "options": [
+              "Sí",
+              "No"
+            ],
+            "answer": "No"
+          },
+          {
+            "id": "MOV-003",
+            "source_id": "P098",
+            "type": "multiple_choice",
+            "prompt": "Jugar a la pelota",
+            "options": [
+              "Sí",
+              "No"
+            ],
+            "answer": "Sí"
+          }
+        ],
+        "hace_bien": [
+          {
+            "id": "MOV-004",
+            "source_id": "P102",
+            "type": "multiple_choice",
+            "prompt": "Jugar al aire libre",
+            "options": [
+              "Hace bien",
+              "No"
+            ],
+            "answer": "Hace bien"
+          },
+          {
+            "id": "MOV-005",
+            "source_id": "P103",
+            "type": "multiple_choice",
+            "prompt": "Estar todo el día acostado",
+            "options": [
+              "Hace bien",
+              "No"
+            ],
+            "answer": "No"
+          },
+          {
+            "id": "MOV-006",
+            "source_id": "P107",
+            "type": "multiple_choice",
+            "prompt": "Mirar pantallas todo el día",
+            "options": [
+              "Hace bien",
+              "No"
+            ],
+            "answer": "No"
+          }
+        ],
+        "completar": [
+          {
+            "id": "MOV-007",
+            "source_id": "P108",
+            "type": "multiple_choice",
+            "prompt": "La actividad física ayuda a mantener el cuerpo _____.",
+            "options": [
+              "sano",
+              "quieto",
+              "cansado"
+            ],
+            "answer": "sano"
+          },
+          {
+            "id": "MOV-008",
+            "source_id": "P109",
+            "type": "multiple_choice",
+            "prompt": "Cuando me muevo, tengo más _____.",
+            "options": [
+              "energía",
+              "sueño",
+              "frío"
+            ],
+            "answer": "energía"
+          },
+          {
+            "id": "MOV-009",
+            "source_id": "P112",
+            "type": "multiple_choice",
+            "prompt": "Hacer ejercicio también puede ponernos más _____.",
+            "options": [
+              "felices",
+              "quietos",
+              "tristes"
+            ],
+            "answer": "felices"
+          }
+        ],
+        "decision": [
+          {
+            "id": "MOV-010",
+            "source_id": "P113",
+            "type": "multiple_choice",
+            "prompt": "¿Cuál es una actividad física?",
+            "options": [
+              "dormir",
+              "correr",
+              "estar sentado"
+            ],
+            "answer": "correr"
+          },
+          {
+            "id": "MOV-011",
+            "source_id": "P115",
+            "type": "multiple_choice",
+            "prompt": "¿Cuál opción es más saludable?",
+            "options": [
+              "jugar afuera",
+              "mirar televisión muchas horas",
+              "estar acostado todo el día"
+            ],
+            "answer": "jugar afuera"
+          },
+          {
+            "id": "MOV-012",
+            "source_id": "P133",
+            "type": "multiple_choice",
+            "prompt": "Después de clases, una buena idea es:",
+            "options": [
+              "caminar o jugar",
+              "estar todo el día sentado",
+              "no moverse nunca"
+            ],
+            "answer": "caminar o jugar"
+          }
+        ],
+        "verdadero_falso": [
+          {
+            "id": "MOV-013",
+            "source_id": "P127",
+            "type": "multiple_choice",
+            "prompt": "La actividad física fortalece el cuerpo.",
+            "options": [
+              "V",
+              "F"
+            ],
+            "answer": "V"
+          },
+          {
+            "id": "MOV-014",
+            "source_id": "P129",
+            "type": "multiple_choice",
+            "prompt": "Caminar no sirve para el cuerpo.",
+            "options": [
+              "V",
+              "F"
+            ],
+            "answer": "F"
+          },
+          {
+            "id": "MOV-015",
+            "source_id": "P131",
+            "type": "multiple_choice",
+            "prompt": "Moverme me da energía.",
+            "options": [
+              "V",
+              "F"
+            ],
+            "answer": "V"
+          }
+        ]
+      }
+    },
+    {
+      "id": "section-4",
+      "theme": "alimentacion",
+      "title": "Mundo 4 · Mercado saludable",
+      "hook": "Elige los alimentos que ayudan al cuerpo a crecer y tener energía.",
+      "questions_per_run": 5,
+      "draw_plan": [
+        "clasificar",
+        "clasificar_2",
+        "mejor_opcion",
+        "colacion",
+        "verdadero_falso"
+      ],
+      "pools": {
+        "clasificar": [
+          {
+            "id": "ALI-001",
+            "source_id": "P135",
+            "type": "multiple_choice",
+            "prompt": "Manzana",
+            "options": [
+              "Saludable",
+              "No saludable"
+            ],
+            "answer": "Saludable"
+          },
+          {
+            "id": "ALI-002",
+            "source_id": "P136",
+            "type": "multiple_choice",
+            "prompt": "Papas fritas",
+            "options": [
+              "Saludable",
+              "No saludable"
+            ],
+            "answer": "No saludable"
+          },
+          {
+            "id": "ALI-003",
+            "source_id": "P140",
+            "type": "multiple_choice",
+            "prompt": "Pescado",
+            "options": [
+              "Saludable",
+              "No saludable"
+            ],
+            "answer": "Saludable"
+          }
+        ],
+        "clasificar_2": [
+          {
+            "id": "ALI-004",
+            "source_id": "P149",
+            "type": "multiple_choice",
+            "prompt": "Bebida",
+            "options": [
+              "Saludable",
+              "No saludable"
+            ],
+            "answer": "No saludable"
+          },
+          {
+            "id": "ALI-005",
+            "source_id": "P151",
+            "type": "multiple_choice",
+            "prompt": "Naranja",
+            "options": [
+              "Saludable",
+              "No saludable"
+            ],
+            "answer": "Saludable"
+          },
+          {
+            "id": "ALI-006",
+            "source_id": "P153",
+            "type": "multiple_choice",
+            "prompt": "Papas fritas",
+            "options": [
+              "Saludable",
+              "No saludable"
+            ],
+            "answer": "No saludable"
+          }
+        ],
+        "mejor_opcion": [
+          {
+            "id": "ALI-007",
+            "source_id": "P167",
+            "type": "multiple_choice",
+            "prompt": "¿Cuál es un alimento saludable?",
+            "options": [
+              "manzana",
+              "bebida",
+              "papas fritas"
+            ],
+            "answer": "manzana"
+          },
+          {
+            "id": "ALI-008",
+            "source_id": "P168",
+            "type": "multiple_choice",
+            "prompt": "¿Cuál es menos saludable?",
+            "options": [
+              "ensalada",
+              "torta",
+              "pescado"
+            ],
+            "answer": "torta"
+          },
+          {
+            "id": "ALI-009",
+            "source_id": "P169",
+            "type": "multiple_choice",
+            "prompt": "¿Qué alimento ayuda a crecer?",
+            "options": [
+              "leche",
+              "bebida",
+              "dulces"
+            ],
+            "answer": "leche"
+          }
+        ],
+        "colacion": [
+          {
+            "id": "ALI-010",
+            "source_id": "P188",
+            "type": "multiple_choice",
+            "prompt": "¿Qué colación NO es saludable?",
+            "options": [
+              "una manzana y leche",
+              "papas fritas y bebida"
+            ],
+            "answer": "papas fritas y bebida"
+          },
+          {
+            "id": "ALI-011",
+            "source_id": "P189",
+            "type": "multiple_choice",
+            "prompt": "¿Qué colación NO es saludable?",
+            "options": [
+              "yogur y fruta",
+              "torta y bebida"
+            ],
+            "answer": "torta y bebida"
+          },
+          {
+            "id": "ALI-012",
+            "source_id": "P190",
+            "type": "multiple_choice",
+            "prompt": "¿Qué colación NO es saludable?",
+            "options": [
+              "ensalada de frutas",
+              "dulces y chocolates"
+            ],
+            "answer": "dulces y chocolates"
+          }
+        ],
+        "verdadero_falso": [
+          {
+            "id": "ALI-013",
+            "source_id": "P171",
+            "type": "multiple_choice",
+            "prompt": "Las frutas son saludables.",
+            "options": [
+              "V",
+              "F"
+            ],
+            "answer": "V"
+          },
+          {
+            "id": "ALI-014",
+            "source_id": "P173",
+            "type": "multiple_choice",
+            "prompt": "Comer muchas golosinas siempre es saludable.",
+            "options": [
+              "V",
+              "F"
+            ],
+            "answer": "F"
+          },
+          {
+            "id": "ALI-015",
+            "source_id": "P176",
+            "type": "multiple_choice",
+            "prompt": "La bebida y la comida chatarra son mejores que la fruta.",
+            "options": [
+              "V",
+              "F"
+            ],
+            "answer": "F"
+          }
+        ]
+      }
+    },
+    {
+      "id": "section-5",
+      "theme": "final_mixto",
+      "title": "Mundo 5 · Copa Natural",
+      "hook": "Ronda final corta con preguntas mezcladas.",
+      "questions_per_run": 5,
+      "draw_plan": [
+        "sentidos",
+        "cuidado",
+        "movimiento",
+        "comida",
+        "mixto"
+      ],
+      "pools": {
+        "sentidos": [
+          {
+            "id": "FIN-001",
+            "source_id": "P215",
+            "type": "multiple_choice",
+            "prompt": "¿Cuál es un sentido?",
+            "options": [
+              "correr",
+              "gusto",
+              "ensalada"
+            ],
+            "answer": "gusto"
+          },
+          {
+            "id": "FIN-002",
+            "source_id": "P216",
+            "type": "multiple_choice",
+            "prompt": "¿Con qué parte del cuerpo vemos?",
+            "options": [
+              "ojos",
+              "nariz",
+              "manos"
+            ],
+            "answer": "ojos"
+          }
+        ],
+        "cuidado": [
+          {
+            "id": "FIN-003",
+            "source_id": "P217",
+            "type": "multiple_choice",
+            "prompt": "¿Qué acción cuida los oídos?",
+            "options": [
+              "escuchar música muy fuerte",
+              "usar volumen moderado",
+              "gritar cerca del oído"
+            ],
+            "answer": "usar volumen moderado"
+          },
+          {
+            "id": "FIN-004",
+            "source_id": "P221",
+            "type": "multiple_choice",
+            "prompt": "Mirar directo al sol cuida los ojos.",
+            "options": [
+              "V",
+              "F"
+            ],
+            "answer": "F"
+          }
+        ],
+        "movimiento": [
+          {
+            "id": "FIN-005",
+            "source_id": "P218",
+            "type": "multiple_choice",
+            "prompt": "¿Cuál es una actividad física?",
+            "options": [
+              "saltar",
+              "dormir",
+              "mirar una pared"
+            ],
+            "answer": "saltar"
+          },
+          {
+            "id": "FIN-006",
+            "source_id": "P223",
+            "type": "multiple_choice",
+            "prompt": "Mover el cuerpo es bueno para la salud.",
+            "options": [
+              "V",
+              "F"
+            ],
+            "answer": "V"
+          }
+        ],
+        "comida": [
+          {
+            "id": "FIN-007",
+            "source_id": "P219",
+            "type": "multiple_choice",
+            "prompt": "¿Cuál alimento es saludable?",
+            "options": [
+              "manzana",
+              "bebida",
+              "papas fritas"
+            ],
+            "answer": "manzana"
+          },
+          {
+            "id": "FIN-008",
+            "source_id": "P224",
+            "type": "multiple_choice",
+            "prompt": "Las frutas son saludables.",
+            "options": [
+              "V",
+              "F"
+            ],
+            "answer": "V"
+          }
+        ],
+        "mixto": [
+          {
+            "id": "FIN-009",
+            "source_id": "P220",
+            "type": "multiple_choice",
+            "prompt": "¿Con qué sentido oímos una campana?",
+            "options": [
+              "tacto",
+              "oído",
+              "gusto"
+            ],
+            "answer": "oído"
+          },
+          {
+            "id": "FIN-010",
+            "source_id": "P226",
+            "type": "multiple_choice",
+            "prompt": "¿Qué debemos hacer antes de comer?",
+            "options": [
+              "lavar las manos",
+              "jugar con tierra",
+              "tocar cosas sucias"
+            ],
+            "answer": "lavar las manos"
+          },
+          {
+            "id": "FIN-011",
+            "source_id": "P227",
+            "type": "multiple_choice",
+            "prompt": "¿Qué alimento NO es saludable?",
+            "options": [
+              "ensalada",
+              "leche",
+              "torta"
+            ],
+            "answer": "torta"
+          }
+        ]
+      }
+    }
+  ]
+}

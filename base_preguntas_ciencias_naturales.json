@@ -1,0 +1,3211 @@
+[
+  {
+    "id": "P001",
+    "tema": "cinco_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Vista",
+    "opciones": [
+      "ojos",
+      "nariz",
+      "lengua",
+      "piel",
+      "oídos"
+    ],
+    "respuesta_correcta": "ojos",
+    "origen_card": "w1-a1",
+    "origen_titulo": "Sentido y cuerpo"
+  },
+  {
+    "id": "P002",
+    "tema": "cinco_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Oído",
+    "opciones": [
+      "ojos",
+      "oídos",
+      "lengua",
+      "piel",
+      "nariz"
+    ],
+    "respuesta_correcta": "oídos",
+    "origen_card": "w1-a1",
+    "origen_titulo": "Sentido y cuerpo"
+  },
+  {
+    "id": "P003",
+    "tema": "cinco_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Olfato",
+    "opciones": [
+      "nariz",
+      "piel",
+      "oídos",
+      "ojos",
+      "lengua"
+    ],
+    "respuesta_correcta": "nariz",
+    "origen_card": "w1-a1",
+    "origen_titulo": "Sentido y cuerpo"
+  },
+  {
+    "id": "P004",
+    "tema": "cinco_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Gusto",
+    "opciones": [
+      "manos",
+      "lengua",
+      "nariz",
+      "ojos",
+      "oídos"
+    ],
+    "respuesta_correcta": "lengua",
+    "origen_card": "w1-a1",
+    "origen_titulo": "Sentido y cuerpo"
+  },
+  {
+    "id": "P005",
+    "tema": "cinco_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Tacto",
+    "opciones": [
+      "lengua",
+      "nariz",
+      "piel",
+      "ojos",
+      "oídos"
+    ],
+    "respuesta_correcta": "piel",
+    "origen_card": "w1-a1",
+    "origen_titulo": "Sentido y cuerpo"
+  },
+  {
+    "id": "P006",
+    "tema": "cinco_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Con los _____ vemos.",
+    "opciones": [
+      "ojos",
+      "oídos",
+      "nariz",
+      "tacto",
+      "lengua"
+    ],
+    "respuesta_correcta": "ojos",
+    "origen_card": "w1-a2",
+    "origen_titulo": "Palabra que falta"
+  },
+  {
+    "id": "P007",
+    "tema": "cinco_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Con la _____ olemos.",
+    "opciones": [
+      "lengua",
+      "nariz",
+      "piel",
+      "mano",
+      "vista"
+    ],
+    "respuesta_correcta": "nariz",
+    "origen_card": "w1-a2",
+    "origen_titulo": "Palabra que falta"
+  },
+  {
+    "id": "P008",
+    "tema": "cinco_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Con la _____ probamos sabores.",
+    "opciones": [
+      "nariz",
+      "piel",
+      "lengua",
+      "vista",
+      "oído"
+    ],
+    "respuesta_correcta": "lengua",
+    "origen_card": "w1-a2",
+    "origen_titulo": "Palabra que falta"
+  },
+  {
+    "id": "P009",
+    "tema": "cinco_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Con los _____ escuchamos.",
+    "opciones": [
+      "ojos",
+      "oídos",
+      "dedos",
+      "labios",
+      "manos"
+    ],
+    "respuesta_correcta": "oídos",
+    "origen_card": "w1-a2",
+    "origen_titulo": "Palabra que falta"
+  },
+  {
+    "id": "P010",
+    "tema": "cinco_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Con la piel y las manos sentimos el _____.",
+    "opciones": [
+      "oído",
+      "gusto",
+      "tacto",
+      "olfato",
+      "color"
+    ],
+    "respuesta_correcta": "tacto",
+    "origen_card": "w1-a2",
+    "origen_titulo": "Palabra que falta"
+  },
+  {
+    "id": "P011",
+    "tema": "cinco_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "¿Con qué sentido escuchamos música?",
+    "opciones": [
+      "vista",
+      "oído",
+      "tacto"
+    ],
+    "respuesta_correcta": "oído",
+    "origen_card": "w1-a3",
+    "origen_titulo": "Respuesta correcta"
+  },
+  {
+    "id": "P012",
+    "tema": "cinco_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "¿Con qué sentido vemos un arcoíris?",
+    "opciones": [
+      "gusto",
+      "vista",
+      "olfato"
+    ],
+    "respuesta_correcta": "vista",
+    "origen_card": "w1-a3",
+    "origen_titulo": "Respuesta correcta"
+  },
+  {
+    "id": "P013",
+    "tema": "cinco_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "¿Con qué sentido olemos una flor?",
+    "opciones": [
+      "olfato",
+      "tacto",
+      "oído"
+    ],
+    "respuesta_correcta": "olfato",
+    "origen_card": "w1-a3",
+    "origen_titulo": "Respuesta correcta"
+  },
+  {
+    "id": "P014",
+    "tema": "cinco_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "¿Con qué sentido probamos una manzana?",
+    "opciones": [
+      "gusto",
+      "vista",
+      "olfato"
+    ],
+    "respuesta_correcta": "gusto",
+    "origen_card": "w1-a3",
+    "origen_titulo": "Respuesta correcta"
+  },
+  {
+    "id": "P015",
+    "tema": "cinco_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "¿Con qué sentido sentimos algo suave?",
+    "opciones": [
+      "tacto",
+      "oído",
+      "gusto"
+    ],
+    "respuesta_correcta": "tacto",
+    "origen_card": "w1-a3",
+    "origen_titulo": "Respuesta correcta"
+  },
+  {
+    "id": "P016",
+    "tema": "cinco_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Escuchar el ladrido de un perro.",
+    "opciones": [
+      "vista",
+      "oído",
+      "gusto"
+    ],
+    "respuesta_correcta": "oído",
+    "origen_card": "w1-a4",
+    "origen_titulo": "Situación y sentido"
+  },
+  {
+    "id": "P017",
+    "tema": "cinco_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Ver una mariposa.",
+    "opciones": [
+      "olfato",
+      "vista",
+      "tacto"
+    ],
+    "respuesta_correcta": "vista",
+    "origen_card": "w1-a4",
+    "origen_titulo": "Situación y sentido"
+  },
+  {
+    "id": "P018",
+    "tema": "cinco_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Oler pan recién hecho.",
+    "opciones": [
+      "gusto",
+      "olfato",
+      "oído"
+    ],
+    "respuesta_correcta": "olfato",
+    "origen_card": "w1-a4",
+    "origen_titulo": "Situación y sentido"
+  },
+  {
+    "id": "P019",
+    "tema": "cinco_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Sentir agua fría.",
+    "opciones": [
+      "tacto",
+      "vista",
+      "gusto"
+    ],
+    "respuesta_correcta": "tacto",
+    "origen_card": "w1-a4",
+    "origen_titulo": "Situación y sentido"
+  },
+  {
+    "id": "P020",
+    "tema": "cinco_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Probar una naranja.",
+    "opciones": [
+      "gusto",
+      "tacto",
+      "oído"
+    ],
+    "respuesta_correcta": "gusto",
+    "origen_card": "w1-a4",
+    "origen_titulo": "Situación y sentido"
+  },
+  {
+    "id": "P021",
+    "tema": "cinco_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Para mirar un arcoíris.",
+    "opciones": [
+      "vista",
+      "oído",
+      "olfato"
+    ],
+    "respuesta_correcta": "vista",
+    "origen_card": "w1-a5",
+    "origen_titulo": "¿Qué usarías?"
+  },
+  {
+    "id": "P022",
+    "tema": "cinco_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Para escuchar una campana.",
+    "opciones": [
+      "tacto",
+      "oído",
+      "gusto"
+    ],
+    "respuesta_correcta": "oído",
+    "origen_card": "w1-a5",
+    "origen_titulo": "¿Qué usarías?"
+  },
+  {
+    "id": "P023",
+    "tema": "cinco_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Para oler una flor.",
+    "opciones": [
+      "olfato",
+      "vista",
+      "oído"
+    ],
+    "respuesta_correcta": "olfato",
+    "origen_card": "w1-a5",
+    "origen_titulo": "¿Qué usarías?"
+  },
+  {
+    "id": "P024",
+    "tema": "cinco_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Para probar una frutilla.",
+    "opciones": [
+      "gusto",
+      "tacto",
+      "vista"
+    ],
+    "respuesta_correcta": "gusto",
+    "origen_card": "w1-a5",
+    "origen_titulo": "¿Qué usarías?"
+  },
+  {
+    "id": "P025",
+    "tema": "cinco_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Para sentir una manta suave.",
+    "opciones": [
+      "tacto",
+      "olfato",
+      "oído"
+    ],
+    "respuesta_correcta": "tacto",
+    "origen_card": "w1-a5",
+    "origen_titulo": "¿Qué usarías?"
+  },
+  {
+    "id": "P026",
+    "tema": "cinco_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Con la nariz podemos oler.",
+    "opciones": [
+      "V",
+      "F"
+    ],
+    "respuesta_correcta": "V",
+    "origen_card": "w1-a6",
+    "origen_titulo": "Verdadero o falso"
+  },
+  {
+    "id": "P027",
+    "tema": "cinco_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Con los ojos podemos escuchar.",
+    "opciones": [
+      "V",
+      "F"
+    ],
+    "respuesta_correcta": "F",
+    "origen_card": "w1-a6",
+    "origen_titulo": "Verdadero o falso"
+  },
+  {
+    "id": "P028",
+    "tema": "cinco_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Con la lengua sentimos sabores.",
+    "opciones": [
+      "V",
+      "F"
+    ],
+    "respuesta_correcta": "V",
+    "origen_card": "w1-a6",
+    "origen_titulo": "Verdadero o falso"
+  },
+  {
+    "id": "P029",
+    "tema": "cinco_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "El tacto ayuda a sentir frío o calor.",
+    "opciones": [
+      "V",
+      "F"
+    ],
+    "respuesta_correcta": "V",
+    "origen_card": "w1-a6",
+    "origen_titulo": "Verdadero o falso"
+  },
+  {
+    "id": "P030",
+    "tema": "cinco_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Con los oídos podemos ver colores.",
+    "opciones": [
+      "V",
+      "F"
+    ],
+    "respuesta_correcta": "F",
+    "origen_card": "w1-a6",
+    "origen_titulo": "Verdadero o falso"
+  },
+  {
+    "id": "P031",
+    "tema": "cinco_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "La vista nos ayuda a mirar.",
+    "opciones": [
+      "V",
+      "F"
+    ],
+    "respuesta_correcta": "V",
+    "origen_card": "w1-a6",
+    "origen_titulo": "Verdadero o falso"
+  },
+  {
+    "id": "P032",
+    "tema": "cinco_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "El olfato sirve para oler perfumes y comidas.",
+    "opciones": [
+      "V",
+      "F"
+    ],
+    "respuesta_correcta": "V",
+    "origen_card": "w1-a6",
+    "origen_titulo": "Verdadero o falso"
+  },
+  {
+    "id": "P033",
+    "tema": "cinco_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "El gusto está en la lengua.",
+    "opciones": [
+      "V",
+      "F"
+    ],
+    "respuesta_correcta": "V",
+    "origen_card": "w1-a6",
+    "origen_titulo": "Verdadero o falso"
+  },
+  {
+    "id": "P034",
+    "tema": "cinco_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Para mirar una película.",
+    "opciones": [
+      "vista",
+      "olfato",
+      "gusto"
+    ],
+    "respuesta_correcta": "vista",
+    "origen_card": "w1-a7",
+    "origen_titulo": "¿Qué sentido uso?"
+  },
+  {
+    "id": "P035",
+    "tema": "cinco_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Para oler una sopa.",
+    "opciones": [
+      "oído",
+      "olfato",
+      "vista"
+    ],
+    "respuesta_correcta": "olfato",
+    "origen_card": "w1-a7",
+    "origen_titulo": "¿Qué sentido uso?"
+  },
+  {
+    "id": "P036",
+    "tema": "cinco_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Para escuchar una canción.",
+    "opciones": [
+      "oído",
+      "tacto",
+      "gusto"
+    ],
+    "respuesta_correcta": "oído",
+    "origen_card": "w1-a7",
+    "origen_titulo": "¿Qué sentido uso?"
+  },
+  {
+    "id": "P037",
+    "tema": "cinco_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Para saber si un limón es ácido.",
+    "opciones": [
+      "gusto",
+      "vista",
+      "olfato"
+    ],
+    "respuesta_correcta": "gusto",
+    "origen_card": "w1-a7",
+    "origen_titulo": "¿Qué sentido uso?"
+  },
+  {
+    "id": "P038",
+    "tema": "cinco_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Para sentir una manta suave.",
+    "opciones": [
+      "tacto",
+      "oído",
+      "vista"
+    ],
+    "respuesta_correcta": "tacto",
+    "origen_card": "w1-a7",
+    "origen_titulo": "¿Qué sentido uso?"
+  },
+  {
+    "id": "P039",
+    "tema": "cinco_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Vista - ojos",
+    "opciones": [
+      "Correcta",
+      "No"
+    ],
+    "respuesta_correcta": "Correcta",
+    "origen_card": "w1-a8",
+    "origen_titulo": "Parejas correctas"
+  },
+  {
+    "id": "P040",
+    "tema": "cinco_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Oído - nariz",
+    "opciones": [
+      "Correcta",
+      "No"
+    ],
+    "respuesta_correcta": "No",
+    "origen_card": "w1-a8",
+    "origen_titulo": "Parejas correctas"
+  },
+  {
+    "id": "P041",
+    "tema": "cinco_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Olfato - nariz",
+    "opciones": [
+      "Correcta",
+      "No"
+    ],
+    "respuesta_correcta": "Correcta",
+    "origen_card": "w1-a8",
+    "origen_titulo": "Parejas correctas"
+  },
+  {
+    "id": "P042",
+    "tema": "cinco_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Gusto - manos",
+    "opciones": [
+      "Correcta",
+      "No"
+    ],
+    "respuesta_correcta": "No",
+    "origen_card": "w1-a8",
+    "origen_titulo": "Parejas correctas"
+  },
+  {
+    "id": "P043",
+    "tema": "cinco_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Tacto - piel",
+    "opciones": [
+      "Correcta",
+      "No"
+    ],
+    "respuesta_correcta": "Correcta",
+    "origen_card": "w1-a8",
+    "origen_titulo": "Parejas correctas"
+  },
+  {
+    "id": "P044",
+    "tema": "cinco_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Oído - oídos",
+    "opciones": [
+      "Correcta",
+      "No"
+    ],
+    "respuesta_correcta": "Correcta",
+    "origen_card": "w1-a8",
+    "origen_titulo": "Parejas correctas"
+  },
+  {
+    "id": "P045",
+    "tema": "cinco_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Sirvo para ver colores, formas y letras.",
+    "opciones": [
+      "vista",
+      "oído",
+      "olfato"
+    ],
+    "respuesta_correcta": "vista",
+    "origen_card": "w1-a9",
+    "origen_titulo": "¿Qué sentido soy?"
+  },
+  {
+    "id": "P046",
+    "tema": "cinco_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Sirvo para escuchar voces, música y sonidos.",
+    "opciones": [
+      "gusto",
+      "oído",
+      "tacto"
+    ],
+    "respuesta_correcta": "oído",
+    "origen_card": "w1-a9",
+    "origen_titulo": "¿Qué sentido soy?"
+  },
+  {
+    "id": "P047",
+    "tema": "cinco_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Sirvo para oler flores, humo o comida.",
+    "opciones": [
+      "tacto",
+      "vista",
+      "olfato"
+    ],
+    "respuesta_correcta": "olfato",
+    "origen_card": "w1-a9",
+    "origen_titulo": "¿Qué sentido soy?"
+  },
+  {
+    "id": "P048",
+    "tema": "cinco_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Sirvo para probar sabores dulces, salados o ácidos.",
+    "opciones": [
+      "gusto",
+      "oído",
+      "vista"
+    ],
+    "respuesta_correcta": "gusto",
+    "origen_card": "w1-a9",
+    "origen_titulo": "¿Qué sentido soy?"
+  },
+  {
+    "id": "P049",
+    "tema": "cinco_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Sirvo para sentir frío, calor, suave o áspero.",
+    "opciones": [
+      "vista",
+      "tacto",
+      "olfato"
+    ],
+    "respuesta_correcta": "tacto",
+    "origen_card": "w1-a9",
+    "origen_titulo": "¿Qué sentido soy?"
+  },
+  {
+    "id": "P050",
+    "tema": "cuidado_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Leer con buena luz.",
+    "opciones": [
+      "Cuida",
+      "Daña"
+    ],
+    "respuesta_correcta": "Cuida",
+    "origen_card": "w2-a10",
+    "origen_titulo": "¿Cuida o daña?"
+  },
+  {
+    "id": "P051",
+    "tema": "cuidado_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Escuchar música muy fuerte por mucho tiempo.",
+    "opciones": [
+      "Cuida",
+      "Daña"
+    ],
+    "respuesta_correcta": "Daña",
+    "origen_card": "w2-a10",
+    "origen_titulo": "¿Cuida o daña?"
+  },
+  {
+    "id": "P052",
+    "tema": "cuidado_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Lavarse las manos antes de comer.",
+    "opciones": [
+      "Cuida",
+      "Daña"
+    ],
+    "respuesta_correcta": "Cuida",
+    "origen_card": "w2-a10",
+    "origen_titulo": "¿Cuida o daña?"
+  },
+  {
+    "id": "P053",
+    "tema": "cuidado_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Meter objetos en la nariz.",
+    "opciones": [
+      "Cuida",
+      "Daña"
+    ],
+    "respuesta_correcta": "Daña",
+    "origen_card": "w2-a10",
+    "origen_titulo": "¿Cuida o daña?"
+  },
+  {
+    "id": "P054",
+    "tema": "cuidado_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Usar bloqueador cuando hay mucho sol.",
+    "opciones": [
+      "Cuida",
+      "Daña"
+    ],
+    "respuesta_correcta": "Cuida",
+    "origen_card": "w2-a10",
+    "origen_titulo": "¿Cuida o daña?"
+  },
+  {
+    "id": "P055",
+    "tema": "cuidado_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Gritar al lado del oído de otra persona.",
+    "opciones": [
+      "Cuida",
+      "Daña"
+    ],
+    "respuesta_correcta": "Daña",
+    "origen_card": "w2-a10",
+    "origen_titulo": "¿Cuida o daña?"
+  },
+  {
+    "id": "P056",
+    "tema": "cuidado_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Comer alimentos limpios.",
+    "opciones": [
+      "Cuida",
+      "Daña"
+    ],
+    "respuesta_correcta": "Cuida",
+    "origen_card": "w2-a10",
+    "origen_titulo": "¿Cuida o daña?"
+  },
+  {
+    "id": "P057",
+    "tema": "cuidado_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Tocar cosas peligrosas o muy calientes.",
+    "opciones": [
+      "Cuida",
+      "Daña"
+    ],
+    "respuesta_correcta": "Daña",
+    "origen_card": "w2-a10",
+    "origen_titulo": "¿Cuida o daña?"
+  },
+  {
+    "id": "P058",
+    "tema": "cuidado_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Mirar la televisión muy de cerca.",
+    "opciones": [
+      "Bien",
+      "Mal"
+    ],
+    "respuesta_correcta": "Mal",
+    "origen_card": "w2-a11",
+    "origen_titulo": "Bien o mal"
+  },
+  {
+    "id": "P059",
+    "tema": "cuidado_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Lavarse las manos antes de comer.",
+    "opciones": [
+      "Bien",
+      "Mal"
+    ],
+    "respuesta_correcta": "Bien",
+    "origen_card": "w2-a11",
+    "origen_titulo": "Bien o mal"
+  },
+  {
+    "id": "P060",
+    "tema": "cuidado_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Introducir objetos en los oídos.",
+    "opciones": [
+      "Bien",
+      "Mal"
+    ],
+    "respuesta_correcta": "Mal",
+    "origen_card": "w2-a11",
+    "origen_titulo": "Bien o mal"
+  },
+  {
+    "id": "P061",
+    "tema": "cuidado_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Usar gorro o bloqueador al sol.",
+    "opciones": [
+      "Bien",
+      "Mal"
+    ],
+    "respuesta_correcta": "Bien",
+    "origen_card": "w2-a11",
+    "origen_titulo": "Bien o mal"
+  },
+  {
+    "id": "P062",
+    "tema": "cuidado_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Oler productos peligrosos.",
+    "opciones": [
+      "Bien",
+      "Mal"
+    ],
+    "respuesta_correcta": "Mal",
+    "origen_card": "w2-a11",
+    "origen_titulo": "Bien o mal"
+  },
+  {
+    "id": "P063",
+    "tema": "cuidado_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Cuidar la piel de heridas y quemaduras.",
+    "opciones": [
+      "Bien",
+      "Mal"
+    ],
+    "respuesta_correcta": "Bien",
+    "origen_card": "w2-a11",
+    "origen_titulo": "Bien o mal"
+  },
+  {
+    "id": "P064",
+    "tema": "cuidado_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Escuchar música a volumen moderado.",
+    "opciones": [
+      "Bien",
+      "Mal"
+    ],
+    "respuesta_correcta": "Bien",
+    "origen_card": "w2-a11",
+    "origen_titulo": "Bien o mal"
+  },
+  {
+    "id": "P065",
+    "tema": "cuidado_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Probar cosas sin preguntar a un adulto.",
+    "opciones": [
+      "Bien",
+      "Mal"
+    ],
+    "respuesta_correcta": "Mal",
+    "origen_card": "w2-a11",
+    "origen_titulo": "Bien o mal"
+  },
+  {
+    "id": "P066",
+    "tema": "cuidado_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Vista",
+    "opciones": [
+      "Leer con buena luz",
+      "No meter objetos en la nariz",
+      "No tocar cosas calientes",
+      "No escuchar sonidos muy fuertes",
+      "Lavarse los dientes y las manos"
+    ],
+    "respuesta_correcta": "Leer con buena luz",
+    "origen_card": "w2-a12",
+    "origen_titulo": "Sentido y cuidado"
+  },
+  {
+    "id": "P067",
+    "tema": "cuidado_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Oído",
+    "opciones": [
+      "No escuchar sonidos muy fuertes",
+      "Leer con buena luz",
+      "No tocar cosas calientes",
+      "No meter objetos en la nariz",
+      "Lavarse los dientes y las manos"
+    ],
+    "respuesta_correcta": "No escuchar sonidos muy fuertes",
+    "origen_card": "w2-a12",
+    "origen_titulo": "Sentido y cuidado"
+  },
+  {
+    "id": "P068",
+    "tema": "cuidado_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Olfato",
+    "opciones": [
+      "No meter objetos en la nariz",
+      "Leer con buena luz",
+      "Lavarse los dientes y las manos",
+      "No tocar cosas calientes",
+      "No escuchar sonidos muy fuertes"
+    ],
+    "respuesta_correcta": "No meter objetos en la nariz",
+    "origen_card": "w2-a12",
+    "origen_titulo": "Sentido y cuidado"
+  },
+  {
+    "id": "P069",
+    "tema": "cuidado_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Gusto",
+    "opciones": [
+      "No tocar cosas calientes",
+      "Lavarse los dientes y las manos",
+      "Leer con buena luz",
+      "No escuchar sonidos muy fuertes",
+      "No meter objetos en la nariz"
+    ],
+    "respuesta_correcta": "Lavarse los dientes y las manos",
+    "origen_card": "w2-a12",
+    "origen_titulo": "Sentido y cuidado"
+  },
+  {
+    "id": "P070",
+    "tema": "cuidado_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Tacto",
+    "opciones": [
+      "Leer con buena luz",
+      "No tocar cosas calientes",
+      "No escuchar sonidos muy fuertes",
+      "Lavarse los dientes y las manos",
+      "No meter objetos en la nariz"
+    ],
+    "respuesta_correcta": "No tocar cosas calientes",
+    "origen_card": "w2-a12",
+    "origen_titulo": "Sentido y cuidado"
+  },
+  {
+    "id": "P071",
+    "tema": "cuidado_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Para cuidar mis ojos, debo leer con buena _____.",
+    "opciones": [
+      "luz",
+      "fuerza",
+      "sal",
+      "piel",
+      "nariz"
+    ],
+    "respuesta_correcta": "luz",
+    "origen_card": "w2-a13",
+    "origen_titulo": "Palabras de cuidado"
+  },
+  {
+    "id": "P072",
+    "tema": "cuidado_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Para cuidar mis oídos, no debo escuchar sonidos muy _____.",
+    "opciones": [
+      "dulces",
+      "fuertes",
+      "suaves",
+      "limpios",
+      "largos"
+    ],
+    "respuesta_correcta": "fuertes",
+    "origen_card": "w2-a13",
+    "origen_titulo": "Palabras de cuidado"
+  },
+  {
+    "id": "P073",
+    "tema": "cuidado_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Para cuidar mi nariz, no debo meter _____.",
+    "opciones": [
+      "ojos",
+      "objetos",
+      "frutas",
+      "agua",
+      "gorro"
+    ],
+    "respuesta_correcta": "objetos",
+    "origen_card": "w2-a13",
+    "origen_titulo": "Palabras de cuidado"
+  },
+  {
+    "id": "P074",
+    "tema": "cuidado_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Para cuidar mi lengua y mi boca, debo lavar mis _____.",
+    "opciones": [
+      "oídos",
+      "manos",
+      "zapatos",
+      "ojos",
+      "libros"
+    ],
+    "respuesta_correcta": "manos",
+    "origen_card": "w2-a13",
+    "origen_titulo": "Palabras de cuidado"
+  },
+  {
+    "id": "P075",
+    "tema": "cuidado_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Para cuidar mi piel, no debo tocar cosas muy _____.",
+    "opciones": [
+      "frías",
+      "largas",
+      "calientes",
+      "ricas",
+      "verdes"
+    ],
+    "respuesta_correcta": "calientes",
+    "origen_card": "w2-a13",
+    "origen_titulo": "Palabras de cuidado"
+  },
+  {
+    "id": "P076",
+    "tema": "cuidado_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Para cuidar los ojos:",
+    "opciones": [
+      "mirar pantallas muy cerca",
+      "leer con buena luz"
+    ],
+    "respuesta_correcta": "leer con buena luz",
+    "origen_card": "w2-a14",
+    "origen_titulo": "Acción correcta"
+  },
+  {
+    "id": "P077",
+    "tema": "cuidado_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Para cuidar los oídos:",
+    "opciones": [
+      "escuchar música muy fuerte",
+      "escuchar a volumen moderado"
+    ],
+    "respuesta_correcta": "escuchar a volumen moderado",
+    "origen_card": "w2-a14",
+    "origen_titulo": "Acción correcta"
+  },
+  {
+    "id": "P078",
+    "tema": "cuidado_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Para cuidar la nariz:",
+    "opciones": [
+      "oler flores",
+      "meter objetos"
+    ],
+    "respuesta_correcta": "oler flores",
+    "origen_card": "w2-a14",
+    "origen_titulo": "Acción correcta"
+  },
+  {
+    "id": "P079",
+    "tema": "cuidado_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Para cuidar la piel:",
+    "opciones": [
+      "tocar una olla caliente",
+      "avisar a un adulto si algo quema"
+    ],
+    "respuesta_correcta": "avisar a un adulto si algo quema",
+    "origen_card": "w2-a14",
+    "origen_titulo": "Acción correcta"
+  },
+  {
+    "id": "P080",
+    "tema": "cuidado_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Para cuidar el gusto:",
+    "opciones": [
+      "comer con las manos sucias",
+      "lavar las manos antes de comer"
+    ],
+    "respuesta_correcta": "lavar las manos antes de comer",
+    "origen_card": "w2-a14",
+    "origen_titulo": "Acción correcta"
+  },
+  {
+    "id": "P081",
+    "tema": "cuidado_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Puedo meter lápices o palitos en el oído.",
+    "opciones": [
+      "V",
+      "F"
+    ],
+    "respuesta_correcta": "F",
+    "origen_card": "w2-a15",
+    "origen_titulo": "Verdadero o falso"
+  },
+  {
+    "id": "P082",
+    "tema": "cuidado_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Debo avisar a un adulto si algo está muy caliente.",
+    "opciones": [
+      "V",
+      "F"
+    ],
+    "respuesta_correcta": "V",
+    "origen_card": "w2-a15",
+    "origen_titulo": "Verdadero o falso"
+  },
+  {
+    "id": "P083",
+    "tema": "cuidado_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Debo lavar frutas y verduras antes de comerlas.",
+    "opciones": [
+      "V",
+      "F"
+    ],
+    "respuesta_correcta": "V",
+    "origen_card": "w2-a15",
+    "origen_titulo": "Verdadero o falso"
+  },
+  {
+    "id": "P084",
+    "tema": "cuidado_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Puedo mirar directo al sol por mucho rato.",
+    "opciones": [
+      "V",
+      "F"
+    ],
+    "respuesta_correcta": "F",
+    "origen_card": "w2-a15",
+    "origen_titulo": "Verdadero o falso"
+  },
+  {
+    "id": "P085",
+    "tema": "cuidado_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Debo proteger mi piel del sol.",
+    "opciones": [
+      "V",
+      "F"
+    ],
+    "respuesta_correcta": "V",
+    "origen_card": "w2-a15",
+    "origen_titulo": "Verdadero o falso"
+  },
+  {
+    "id": "P086",
+    "tema": "cuidado_sentidos",
+    "tipo": "multiple_choice",
+    "enunciado": "Los sonidos muy fuertes pueden molestar los oídos.",
+    "opciones": [
+      "V",
+      "F"
+    ],
+    "respuesta_correcta": "V",
+    "origen_card": "w2-a15",
+    "origen_titulo": "Verdadero o falso"
+  },
+  {
+    "id": "P087",
+    "tema": "cuidado_sentidos",
+    "tipo": "open_text",
+    "enunciado": "Si la música está muy fuerte, yo...",
+    "opciones": [],
+    "respuesta_correcta": "",
+    "origen_card": "w2-a16",
+    "origen_titulo": "¿Qué harías?"
+  },
+  {
+    "id": "P088",
+    "tema": "cuidado_sentidos",
+    "tipo": "open_text",
+    "enunciado": "Si voy al sol por mucho rato, yo...",
+    "opciones": [],
+    "respuesta_correcta": "",
+    "origen_card": "w2-a16",
+    "origen_titulo": "¿Qué harías?"
+  },
+  {
+    "id": "P089",
+    "tema": "cuidado_sentidos",
+    "tipo": "open_text",
+    "enunciado": "Si una comida está muy caliente, yo...",
+    "opciones": [],
+    "respuesta_correcta": "",
+    "origen_card": "w2-a16",
+    "origen_titulo": "¿Qué harías?"
+  },
+  {
+    "id": "P090",
+    "tema": "cuidado_sentidos",
+    "tipo": "open_text",
+    "enunciado": "Si mis manos están sucias antes de comer, yo...",
+    "opciones": [],
+    "respuesta_correcta": "",
+    "origen_card": "w2-a16",
+    "origen_titulo": "¿Qué harías?"
+  },
+  {
+    "id": "P091",
+    "tema": "cuidado_sentidos",
+    "tipo": "open_text",
+    "enunciado": "Si algo tiene mal olor, yo...",
+    "opciones": [],
+    "respuesta_correcta": "",
+    "origen_card": "w2-a16",
+    "origen_titulo": "¿Qué harías?"
+  },
+  {
+    "id": "P092",
+    "tema": "actividad_fisica",
+    "tipo": "multiple_choice",
+    "enunciado": "Correr",
+    "opciones": [
+      "Sí",
+      "No"
+    ],
+    "respuesta_correcta": "Sí",
+    "origen_card": "w3-a17",
+    "origen_titulo": "Actividad física o no"
+  },
+  {
+    "id": "P093",
+    "tema": "actividad_fisica",
+    "tipo": "multiple_choice",
+    "enunciado": "Dormir",
+    "opciones": [
+      "Sí",
+      "No"
+    ],
+    "respuesta_correcta": "No",
+    "origen_card": "w3-a17",
+    "origen_titulo": "Actividad física o no"
+  },
+  {
+    "id": "P094",
+    "tema": "actividad_fisica",
+    "tipo": "multiple_choice",
+    "enunciado": "Saltar",
+    "opciones": [
+      "Sí",
+      "No"
+    ],
+    "respuesta_correcta": "Sí",
+    "origen_card": "w3-a17",
+    "origen_titulo": "Actividad física o no"
+  },
+  {
+    "id": "P095",
+    "tema": "actividad_fisica",
+    "tipo": "multiple_choice",
+    "enunciado": "Bailar",
+    "opciones": [
+      "Sí",
+      "No"
+    ],
+    "respuesta_correcta": "Sí",
+    "origen_card": "w3-a17",
+    "origen_titulo": "Actividad física o no"
+  },
+  {
+    "id": "P096",
+    "tema": "actividad_fisica",
+    "tipo": "multiple_choice",
+    "enunciado": "Ver televisión",
+    "opciones": [
+      "Sí",
+      "No"
+    ],
+    "respuesta_correcta": "No",
+    "origen_card": "w3-a17",
+    "origen_titulo": "Actividad física o no"
+  },
+  {
+    "id": "P097",
+    "tema": "actividad_fisica",
+    "tipo": "multiple_choice",
+    "enunciado": "Caminar",
+    "opciones": [
+      "Sí",
+      "No"
+    ],
+    "respuesta_correcta": "Sí",
+    "origen_card": "w3-a17",
+    "origen_titulo": "Actividad física o no"
+  },
+  {
+    "id": "P098",
+    "tema": "actividad_fisica",
+    "tipo": "multiple_choice",
+    "enunciado": "Jugar a la pelota",
+    "opciones": [
+      "Sí",
+      "No"
+    ],
+    "respuesta_correcta": "Sí",
+    "origen_card": "w3-a17",
+    "origen_titulo": "Actividad física o no"
+  },
+  {
+    "id": "P099",
+    "tema": "actividad_fisica",
+    "tipo": "multiple_choice",
+    "enunciado": "Sentarse",
+    "opciones": [
+      "Sí",
+      "No"
+    ],
+    "respuesta_correcta": "No",
+    "origen_card": "w3-a17",
+    "origen_titulo": "Actividad física o no"
+  },
+  {
+    "id": "P100",
+    "tema": "actividad_fisica",
+    "tipo": "multiple_choice",
+    "enunciado": "Correr",
+    "opciones": [
+      "Hace bien",
+      "No"
+    ],
+    "respuesta_correcta": "Hace bien",
+    "origen_card": "w3-a18",
+    "origen_titulo": "Hace bien al cuerpo"
+  },
+  {
+    "id": "P101",
+    "tema": "actividad_fisica",
+    "tipo": "multiple_choice",
+    "enunciado": "Saltar",
+    "opciones": [
+      "Hace bien",
+      "No"
+    ],
+    "respuesta_correcta": "Hace bien",
+    "origen_card": "w3-a18",
+    "origen_titulo": "Hace bien al cuerpo"
+  },
+  {
+    "id": "P102",
+    "tema": "actividad_fisica",
+    "tipo": "multiple_choice",
+    "enunciado": "Jugar al aire libre",
+    "opciones": [
+      "Hace bien",
+      "No"
+    ],
+    "respuesta_correcta": "Hace bien",
+    "origen_card": "w3-a18",
+    "origen_titulo": "Hace bien al cuerpo"
+  },
+  {
+    "id": "P103",
+    "tema": "actividad_fisica",
+    "tipo": "multiple_choice",
+    "enunciado": "Estar todo el día acostado",
+    "opciones": [
+      "Hace bien",
+      "No"
+    ],
+    "respuesta_correcta": "No",
+    "origen_card": "w3-a18",
+    "origen_titulo": "Hace bien al cuerpo"
+  },
+  {
+    "id": "P104",
+    "tema": "actividad_fisica",
+    "tipo": "multiple_choice",
+    "enunciado": "Bailar",
+    "opciones": [
+      "Hace bien",
+      "No"
+    ],
+    "respuesta_correcta": "Hace bien",
+    "origen_card": "w3-a18",
+    "origen_titulo": "Hace bien al cuerpo"
+  },
+  {
+    "id": "P105",
+    "tema": "actividad_fisica",
+    "tipo": "multiple_choice",
+    "enunciado": "Caminar",
+    "opciones": [
+      "Hace bien",
+      "No"
+    ],
+    "respuesta_correcta": "Hace bien",
+    "origen_card": "w3-a18",
+    "origen_titulo": "Hace bien al cuerpo"
+  },
+  {
+    "id": "P106",
+    "tema": "actividad_fisica",
+    "tipo": "multiple_choice",
+    "enunciado": "Moverse en recreo",
+    "opciones": [
+      "Hace bien",
+      "No"
+    ],
+    "respuesta_correcta": "Hace bien",
+    "origen_card": "w3-a18",
+    "origen_titulo": "Hace bien al cuerpo"
+  },
+  {
+    "id": "P107",
+    "tema": "actividad_fisica",
+    "tipo": "multiple_choice",
+    "enunciado": "Mirar pantallas todo el día",
+    "opciones": [
+      "Hace bien",
+      "No"
+    ],
+    "respuesta_correcta": "No",
+    "origen_card": "w3-a18",
+    "origen_titulo": "Hace bien al cuerpo"
+  },
+  {
+    "id": "P108",
+    "tema": "actividad_fisica",
+    "tipo": "multiple_choice",
+    "enunciado": "La actividad física ayuda a mantener el cuerpo _____.",
+    "opciones": [
+      "sano",
+      "quieto",
+      "dormido",
+      "apagado",
+      "lento"
+    ],
+    "respuesta_correcta": "sano",
+    "origen_card": "w3-a19",
+    "origen_titulo": "Mover el cuerpo"
+  },
+  {
+    "id": "P109",
+    "tema": "actividad_fisica",
+    "tipo": "multiple_choice",
+    "enunciado": "Cuando me muevo, tengo más _____.",
+    "opciones": [
+      "sueño",
+      "energía",
+      "silencio",
+      "hambre",
+      "frío"
+    ],
+    "respuesta_correcta": "energía",
+    "origen_card": "w3-a19",
+    "origen_titulo": "Mover el cuerpo"
+  },
+  {
+    "id": "P110",
+    "tema": "actividad_fisica",
+    "tipo": "multiple_choice",
+    "enunciado": "Jugar, correr y saltar son ejemplos de actividad _____.",
+    "opciones": [
+      "física",
+      "triste",
+      "quieta",
+      "larga",
+      "secreta"
+    ],
+    "respuesta_correcta": "física",
+    "origen_card": "w3-a19",
+    "origen_titulo": "Mover el cuerpo"
+  },
+  {
+    "id": "P111",
+    "tema": "actividad_fisica",
+    "tipo": "multiple_choice",
+    "enunciado": "Mover el cuerpo nos ayuda a crecer _____.",
+    "opciones": [
+      "fuertes",
+      "lentos",
+      "quietos",
+      "desordenados",
+      "pesados"
+    ],
+    "respuesta_correcta": "fuertes",
+    "origen_card": "w3-a19",
+    "origen_titulo": "Mover el cuerpo"
+  },
+  {
+    "id": "P112",
+    "tema": "actividad_fisica",
+    "tipo": "multiple_choice",
+    "enunciado": "Hacer ejercicio también puede ponernos más _____.",
+    "opciones": [
+      "felices",
+      "quietos",
+      "cansados siempre",
+      "asustados",
+      "grises"
+    ],
+    "respuesta_correcta": "felices",
+    "origen_card": "w3-a19",
+    "origen_titulo": "Mover el cuerpo"
+  },
+  {
+    "id": "P113",
+    "tema": "actividad_fisica",
+    "tipo": "multiple_choice",
+    "enunciado": "¿Cuál es una actividad física?",
+    "opciones": [
+      "dormir",
+      "correr",
+      "estar sentado"
+    ],
+    "respuesta_correcta": "correr",
+    "origen_card": "w3-a20",
+    "origen_titulo": "Alternativa correcta"
+  },
+  {
+    "id": "P114",
+    "tema": "actividad_fisica",
+    "tipo": "multiple_choice",
+    "enunciado": "¿Qué nos ayuda a estar sanos?",
+    "opciones": [
+      "mover el cuerpo",
+      "no jugar nunca",
+      "estar inmóvil todo el día"
+    ],
+    "respuesta_correcta": "mover el cuerpo",
+    "origen_card": "w3-a20",
+    "origen_titulo": "Alternativa correcta"
+  },
+  {
+    "id": "P115",
+    "tema": "actividad_fisica",
+    "tipo": "multiple_choice",
+    "enunciado": "¿Cuál opción es más saludable?",
+    "opciones": [
+      "jugar afuera",
+      "mirar televisión muchas horas",
+      "estar acostado todo el día"
+    ],
+    "respuesta_correcta": "jugar afuera",
+    "origen_card": "w3-a20",
+    "origen_titulo": "Alternativa correcta"
+  },
+  {
+    "id": "P116",
+    "tema": "actividad_fisica",
+    "tipo": "multiple_choice",
+    "enunciado": "Jugar a la pelota.",
+    "opciones": [
+      "Bien",
+      "Mal"
+    ],
+    "respuesta_correcta": "Bien",
+    "origen_card": "w3-a21",
+    "origen_titulo": "Bien o mal para mi cuerpo"
+  },
+  {
+    "id": "P117",
+    "tema": "actividad_fisica",
+    "tipo": "multiple_choice",
+    "enunciado": "Caminar todos los días.",
+    "opciones": [
+      "Bien",
+      "Mal"
+    ],
+    "respuesta_correcta": "Bien",
+    "origen_card": "w3-a21",
+    "origen_titulo": "Bien o mal para mi cuerpo"
+  },
+  {
+    "id": "P118",
+    "tema": "actividad_fisica",
+    "tipo": "multiple_choice",
+    "enunciado": "Estar muchas horas sin moverse.",
+    "opciones": [
+      "Bien",
+      "Mal"
+    ],
+    "respuesta_correcta": "Mal",
+    "origen_card": "w3-a21",
+    "origen_titulo": "Bien o mal para mi cuerpo"
+  },
+  {
+    "id": "P119",
+    "tema": "actividad_fisica",
+    "tipo": "multiple_choice",
+    "enunciado": "Bailar.",
+    "opciones": [
+      "Bien",
+      "Mal"
+    ],
+    "respuesta_correcta": "Bien",
+    "origen_card": "w3-a21",
+    "origen_titulo": "Bien o mal para mi cuerpo"
+  },
+  {
+    "id": "P120",
+    "tema": "actividad_fisica",
+    "tipo": "multiple_choice",
+    "enunciado": "Correr en un lugar seguro.",
+    "opciones": [
+      "Bien",
+      "Mal"
+    ],
+    "respuesta_correcta": "Bien",
+    "origen_card": "w3-a21",
+    "origen_titulo": "Bien o mal para mi cuerpo"
+  },
+  {
+    "id": "P121",
+    "tema": "actividad_fisica",
+    "tipo": "multiple_choice",
+    "enunciado": "Pasar todo el día frente a una pantalla.",
+    "opciones": [
+      "Bien",
+      "Mal"
+    ],
+    "respuesta_correcta": "Mal",
+    "origen_card": "w3-a21",
+    "origen_titulo": "Bien o mal para mi cuerpo"
+  },
+  {
+    "id": "P122",
+    "tema": "actividad_fisica",
+    "tipo": "multiple_choice",
+    "enunciado": "Correr",
+    "opciones": [
+      "mueve el cuerpo",
+      "poco movimiento",
+      "alimento saludable",
+      "ruido fuerte"
+    ],
+    "respuesta_correcta": "mueve el cuerpo",
+    "origen_card": "w3-a23",
+    "origen_titulo": "Une con una línea"
+  },
+  {
+    "id": "P123",
+    "tema": "actividad_fisica",
+    "tipo": "multiple_choice",
+    "enunciado": "Bailar",
+    "opciones": [
+      "actividad física",
+      "poco movimiento",
+      "cuidado de ojos",
+      "comida"
+    ],
+    "respuesta_correcta": "actividad física",
+    "origen_card": "w3-a23",
+    "origen_titulo": "Une con una línea"
+  },
+  {
+    "id": "P124",
+    "tema": "actividad_fisica",
+    "tipo": "multiple_choice",
+    "enunciado": "Jugar en la plaza",
+    "opciones": [
+      "ayuda a estar sano",
+      "solo para dormir",
+      "poco movimiento",
+      "no sirve"
+    ],
+    "respuesta_correcta": "ayuda a estar sano",
+    "origen_card": "w3-a23",
+    "origen_titulo": "Une con una línea"
+  },
+  {
+    "id": "P125",
+    "tema": "actividad_fisica",
+    "tipo": "multiple_choice",
+    "enunciado": "Ver televisión muchas horas",
+    "opciones": [
+      "poco movimiento",
+      "actividad física",
+      "ayuda a correr",
+      "saludable"
+    ],
+    "respuesta_correcta": "poco movimiento",
+    "origen_card": "w3-a23",
+    "origen_titulo": "Une con una línea"
+  },
+  {
+    "id": "P126",
+    "tema": "actividad_fisica",
+    "tipo": "multiple_choice",
+    "enunciado": "La actividad física fortalece el cuerpo.",
+    "opciones": [
+      "V",
+      "F"
+    ],
+    "respuesta_correcta": "V",
+    "origen_card": "w3-a24",
+    "origen_titulo": "Verdadero o falso"
+  },
+  {
+    "id": "P127",
+    "tema": "actividad_fisica",
+    "tipo": "multiple_choice",
+    "enunciado": "Bailar es una actividad física.",
+    "opciones": [
+      "V",
+      "F"
+    ],
+    "respuesta_correcta": "V",
+    "origen_card": "w3-a24",
+    "origen_titulo": "Verdadero o falso"
+  },
+  {
+    "id": "P128",
+    "tema": "actividad_fisica",
+    "tipo": "multiple_choice",
+    "enunciado": "Caminar no sirve para el cuerpo.",
+    "opciones": [
+      "V",
+      "F"
+    ],
+    "respuesta_correcta": "F",
+    "origen_card": "w3-a24",
+    "origen_titulo": "Verdadero o falso"
+  },
+  {
+    "id": "P129",
+    "tema": "actividad_fisica",
+    "tipo": "multiple_choice",
+    "enunciado": "Jugar al aire libre puede hacerme bien.",
+    "opciones": [
+      "V",
+      "F"
+    ],
+    "respuesta_correcta": "V",
+    "origen_card": "w3-a24",
+    "origen_titulo": "Verdadero o falso"
+  },
+  {
+    "id": "P130",
+    "tema": "actividad_fisica",
+    "tipo": "multiple_choice",
+    "enunciado": "Moverme me da energía.",
+    "opciones": [
+      "V",
+      "F"
+    ],
+    "respuesta_correcta": "V",
+    "origen_card": "w3-a24",
+    "origen_titulo": "Verdadero o falso"
+  },
+  {
+    "id": "P131",
+    "tema": "actividad_fisica",
+    "tipo": "multiple_choice",
+    "enunciado": "Nunca debo jugar ni correr.",
+    "opciones": [
+      "V",
+      "F"
+    ],
+    "respuesta_correcta": "F",
+    "origen_card": "w3-a24",
+    "origen_titulo": "Verdadero o falso"
+  },
+  {
+    "id": "P132",
+    "tema": "actividad_fisica",
+    "tipo": "multiple_choice",
+    "enunciado": "En el recreo es mejor:",
+    "opciones": [
+      "moverse y jugar",
+      "quedarse quieto siempre"
+    ],
+    "respuesta_correcta": "moverse y jugar",
+    "origen_card": "w3-a25",
+    "origen_titulo": "La mejor opción"
+  },
+  {
+    "id": "P133",
+    "tema": "actividad_fisica",
+    "tipo": "multiple_choice",
+    "enunciado": "Después de clases, una buena idea es:",
+    "opciones": [
+      "caminar, jugar o andar en bicicleta",
+      "estar todo el día sentado"
+    ],
+    "respuesta_correcta": "caminar, jugar o andar en bicicleta",
+    "origen_card": "w3-a25",
+    "origen_titulo": "La mejor opción"
+  },
+  {
+    "id": "P134",
+    "tema": "actividad_fisica",
+    "tipo": "multiple_choice",
+    "enunciado": "Para cuidar mi cuerpo, debo:",
+    "opciones": [
+      "moverme todos los días",
+      "no hacer nada nunca"
+    ],
+    "respuesta_correcta": "moverme todos los días",
+    "origen_card": "w3-a25",
+    "origen_titulo": "La mejor opción"
+  },
+  {
+    "id": "P135",
+    "tema": "alimentacion",
+    "tipo": "multiple_choice",
+    "enunciado": "Manzana",
+    "opciones": [
+      "Saludable",
+      "No"
+    ],
+    "respuesta_correcta": "Saludable",
+    "origen_card": "w4-a26",
+    "origen_titulo": "¿Saludable o no?"
+  },
+  {
+    "id": "P136",
+    "tema": "alimentacion",
+    "tipo": "multiple_choice",
+    "enunciado": "Papas fritas",
+    "opciones": [
+      "Saludable",
+      "No"
+    ],
+    "respuesta_correcta": "No",
+    "origen_card": "w4-a26",
+    "origen_titulo": "¿Saludable o no?"
+  },
+  {
+    "id": "P137",
+    "tema": "alimentacion",
+    "tipo": "multiple_choice",
+    "enunciado": "Ensalada",
+    "opciones": [
+      "Saludable",
+      "No"
+    ],
+    "respuesta_correcta": "Saludable",
+    "origen_card": "w4-a26",
+    "origen_titulo": "¿Saludable o no?"
+  },
+  {
+    "id": "P138",
+    "tema": "alimentacion",
+    "tipo": "multiple_choice",
+    "enunciado": "Leche",
+    "opciones": [
+      "Saludable",
+      "No"
+    ],
+    "respuesta_correcta": "Saludable",
+    "origen_card": "w4-a26",
+    "origen_titulo": "¿Saludable o no?"
+  },
+  {
+    "id": "P139",
+    "tema": "alimentacion",
+    "tipo": "multiple_choice",
+    "enunciado": "Torta",
+    "opciones": [
+      "Saludable",
+      "No"
+    ],
+    "respuesta_correcta": "No",
+    "origen_card": "w4-a26",
+    "origen_titulo": "¿Saludable o no?"
+  },
+  {
+    "id": "P140",
+    "tema": "alimentacion",
+    "tipo": "multiple_choice",
+    "enunciado": "Pescado",
+    "opciones": [
+      "Saludable",
+      "No"
+    ],
+    "respuesta_correcta": "Saludable",
+    "origen_card": "w4-a26",
+    "origen_titulo": "¿Saludable o no?"
+  },
+  {
+    "id": "P141",
+    "tema": "alimentacion",
+    "tipo": "multiple_choice",
+    "enunciado": "Chocolate",
+    "opciones": [
+      "Saludable",
+      "No"
+    ],
+    "respuesta_correcta": "No",
+    "origen_card": "w4-a26",
+    "origen_titulo": "¿Saludable o no?"
+  },
+  {
+    "id": "P142",
+    "tema": "alimentacion",
+    "tipo": "multiple_choice",
+    "enunciado": "Huevo",
+    "opciones": [
+      "Saludable",
+      "No"
+    ],
+    "respuesta_correcta": "Saludable",
+    "origen_card": "w4-a26",
+    "origen_titulo": "¿Saludable o no?"
+  },
+  {
+    "id": "P143",
+    "tema": "alimentacion",
+    "tipo": "multiple_choice",
+    "enunciado": "Queso",
+    "opciones": [
+      "Saludable",
+      "No"
+    ],
+    "respuesta_correcta": "Saludable",
+    "origen_card": "w4-a26",
+    "origen_titulo": "¿Saludable o no?"
+  },
+  {
+    "id": "P144",
+    "tema": "alimentacion",
+    "tipo": "multiple_choice",
+    "enunciado": "Bebida",
+    "opciones": [
+      "Saludable",
+      "No"
+    ],
+    "respuesta_correcta": "No",
+    "origen_card": "w4-a26",
+    "origen_titulo": "¿Saludable o no?"
+  },
+  {
+    "id": "P145",
+    "tema": "alimentacion",
+    "tipo": "multiple_choice",
+    "enunciado": "Pan",
+    "opciones": [
+      "Saludable",
+      "No"
+    ],
+    "respuesta_correcta": "Saludable",
+    "origen_card": "w4-a26",
+    "origen_titulo": "¿Saludable o no?"
+  },
+  {
+    "id": "P146",
+    "tema": "alimentacion",
+    "tipo": "multiple_choice",
+    "enunciado": "Yogur",
+    "opciones": [
+      "Saludable",
+      "No"
+    ],
+    "respuesta_correcta": "Saludable",
+    "origen_card": "w4-a26",
+    "origen_titulo": "¿Saludable o no?"
+  },
+  {
+    "id": "P147",
+    "tema": "alimentacion",
+    "tipo": "multiple_choice",
+    "enunciado": "Galletas",
+    "opciones": [
+      "No saludable",
+      "Saludable"
+    ],
+    "respuesta_correcta": "No saludable",
+    "origen_card": "w4-a27",
+    "origen_titulo": "No saludables"
+  },
+  {
+    "id": "P148",
+    "tema": "alimentacion",
+    "tipo": "multiple_choice",
+    "enunciado": "Plátano",
+    "opciones": [
+      "No saludable",
+      "Saludable"
+    ],
+    "respuesta_correcta": "Saludable",
+    "origen_card": "w4-a27",
+    "origen_titulo": "No saludables"
+  },
+  {
+    "id": "P149",
+    "tema": "alimentacion",
+    "tipo": "multiple_choice",
+    "enunciado": "Bebida",
+    "opciones": [
+      "No saludable",
+      "Saludable"
+    ],
+    "respuesta_correcta": "No saludable",
+    "origen_card": "w4-a27",
+    "origen_titulo": "No saludables"
+  },
+  {
+    "id": "P150",
+    "tema": "alimentacion",
+    "tipo": "multiple_choice",
+    "enunciado": "Hamburguesa",
+    "opciones": [
+      "No saludable",
+      "Saludable"
+    ],
+    "respuesta_correcta": "No saludable",
+    "origen_card": "w4-a27",
+    "origen_titulo": "No saludables"
+  },
+  {
+    "id": "P151",
+    "tema": "alimentacion",
+    "tipo": "multiple_choice",
+    "enunciado": "Naranja",
+    "opciones": [
+      "No saludable",
+      "Saludable"
+    ],
+    "respuesta_correcta": "Saludable",
+    "origen_card": "w4-a27",
+    "origen_titulo": "No saludables"
+  },
+  {
+    "id": "P152",
+    "tema": "alimentacion",
+    "tipo": "multiple_choice",
+    "enunciado": "Ensalada",
+    "opciones": [
+      "No saludable",
+      "Saludable"
+    ],
+    "respuesta_correcta": "Saludable",
+    "origen_card": "w4-a27",
+    "origen_titulo": "No saludables"
+  },
+  {
+    "id": "P153",
+    "tema": "alimentacion",
+    "tipo": "multiple_choice",
+    "enunciado": "Papas fritas",
+    "opciones": [
+      "No saludable",
+      "Saludable"
+    ],
+    "respuesta_correcta": "No saludable",
+    "origen_card": "w4-a27",
+    "origen_titulo": "No saludables"
+  },
+  {
+    "id": "P154",
+    "tema": "alimentacion",
+    "tipo": "multiple_choice",
+    "enunciado": "Leche",
+    "opciones": [
+      "No saludable",
+      "Saludable"
+    ],
+    "respuesta_correcta": "Saludable",
+    "origen_card": "w4-a27",
+    "origen_titulo": "No saludables"
+  },
+  {
+    "id": "P155",
+    "tema": "alimentacion",
+    "tipo": "multiple_choice",
+    "enunciado": "Torta",
+    "opciones": [
+      "No saludable",
+      "Saludable"
+    ],
+    "respuesta_correcta": "No saludable",
+    "origen_card": "w4-a27",
+    "origen_titulo": "No saludables"
+  },
+  {
+    "id": "P156",
+    "tema": "alimentacion",
+    "tipo": "multiple_choice",
+    "enunciado": "Manzana",
+    "opciones": [
+      "No saludable",
+      "Saludable"
+    ],
+    "respuesta_correcta": "Saludable",
+    "origen_card": "w4-a27",
+    "origen_titulo": "No saludables"
+  },
+  {
+    "id": "P157",
+    "tema": "alimentacion",
+    "tipo": "multiple_choice",
+    "enunciado": "Manzana",
+    "opciones": [
+      "Saludable",
+      "No saludable"
+    ],
+    "respuesta_correcta": "Saludable",
+    "origen_card": "w4-a28",
+    "origen_titulo": "Dos grupos"
+  },
+  {
+    "id": "P158",
+    "tema": "alimentacion",
+    "tipo": "multiple_choice",
+    "enunciado": "Leche",
+    "opciones": [
+      "Saludable",
+      "No saludable"
+    ],
+    "respuesta_correcta": "Saludable",
+    "origen_card": "w4-a28",
+    "origen_titulo": "Dos grupos"
+  },
+  {
+    "id": "P159",
+    "tema": "alimentacion",
+    "tipo": "multiple_choice",
+    "enunciado": "Papas fritas",
+    "opciones": [
+      "Saludable",
+      "No saludable"
+    ],
+    "respuesta_correcta": "No saludable",
+    "origen_card": "w4-a28",
+    "origen_titulo": "Dos grupos"
+  },
+  {
+    "id": "P160",
+    "tema": "alimentacion",
+    "tipo": "multiple_choice",
+    "enunciado": "Ensalada",
+    "opciones": [
+      "Saludable",
+      "No saludable"
+    ],
+    "respuesta_correcta": "Saludable",
+    "origen_card": "w4-a28",
+    "origen_titulo": "Dos grupos"
+  },
+  {
+    "id": "P161",
+    "tema": "alimentacion",
+    "tipo": "multiple_choice",
+    "enunciado": "Bebida",
+    "opciones": [
+      "Saludable",
+      "No saludable"
+    ],
+    "respuesta_correcta": "No saludable",
+    "origen_card": "w4-a28",
+    "origen_titulo": "Dos grupos"
+  },
+  {
+    "id": "P162",
+    "tema": "alimentacion",
+    "tipo": "multiple_choice",
+    "enunciado": "Huevo",
+    "opciones": [
+      "Saludable",
+      "No saludable"
+    ],
+    "respuesta_correcta": "Saludable",
+    "origen_card": "w4-a28",
+    "origen_titulo": "Dos grupos"
+  },
+  {
+    "id": "P163",
+    "tema": "alimentacion",
+    "tipo": "multiple_choice",
+    "enunciado": "Chocolate",
+    "opciones": [
+      "Saludable",
+      "No saludable"
+    ],
+    "respuesta_correcta": "No saludable",
+    "origen_card": "w4-a28",
+    "origen_titulo": "Dos grupos"
+  },
+  {
+    "id": "P164",
+    "tema": "alimentacion",
+    "tipo": "multiple_choice",
+    "enunciado": "Pescado",
+    "opciones": [
+      "Saludable",
+      "No saludable"
+    ],
+    "respuesta_correcta": "Saludable",
+    "origen_card": "w4-a28",
+    "origen_titulo": "Dos grupos"
+  },
+  {
+    "id": "P165",
+    "tema": "alimentacion",
+    "tipo": "multiple_choice",
+    "enunciado": "Hamburguesa",
+    "opciones": [
+      "Saludable",
+      "No saludable"
+    ],
+    "respuesta_correcta": "No saludable",
+    "origen_card": "w4-a28",
+    "origen_titulo": "Dos grupos"
+  },
+  {
+    "id": "P166",
+    "tema": "alimentacion",
+    "tipo": "multiple_choice",
+    "enunciado": "Queso",
+    "opciones": [
+      "Saludable",
+      "No saludable"
+    ],
+    "respuesta_correcta": "Saludable",
+    "origen_card": "w4-a28",
+    "origen_titulo": "Dos grupos"
+  },
+  {
+    "id": "P167",
+    "tema": "alimentacion",
+    "tipo": "multiple_choice",
+    "enunciado": "Manzana",
+    "opciones": [
+      "saludable",
+      "no saludable"
+    ],
+    "respuesta_correcta": "saludable",
+    "origen_card": "w4-a29",
+    "origen_titulo": "Alimento y categoría"
+  },
+  {
+    "id": "P168",
+    "tema": "alimentacion",
+    "tipo": "multiple_choice",
+    "enunciado": "Ensalada",
+    "opciones": [
+      "saludable",
+      "no saludable"
+    ],
+    "respuesta_correcta": "saludable",
+    "origen_card": "w4-a29",
+    "origen_titulo": "Alimento y categoría"
+  },
+  {
+    "id": "P169",
+    "tema": "alimentacion",
+    "tipo": "multiple_choice",
+    "enunciado": "Papas fritas",
+    "opciones": [
+      "saludable",
+      "no saludable"
+    ],
+    "respuesta_correcta": "no saludable",
+    "origen_card": "w4-a29",
+    "origen_titulo": "Alimento y categoría"
+  },
+  {
+    "id": "P170",
+    "tema": "alimentacion",
+    "tipo": "multiple_choice",
+    "enunciado": "Bebida",
+    "opciones": [
+      "saludable",
+      "no saludable"
+    ],
+    "respuesta_correcta": "no saludable",
+    "origen_card": "w4-a29",
+    "origen_titulo": "Alimento y categoría"
+  },
+  {
+    "id": "P171",
+    "tema": "alimentacion",
+    "tipo": "multiple_choice",
+    "enunciado": "Leche",
+    "opciones": [
+      "saludable",
+      "no saludable"
+    ],
+    "respuesta_correcta": "saludable",
+    "origen_card": "w4-a29",
+    "origen_titulo": "Alimento y categoría"
+  },
+  {
+    "id": "P172",
+    "tema": "alimentacion",
+    "tipo": "multiple_choice",
+    "enunciado": "Torta",
+    "opciones": [
+      "saludable",
+      "no saludable"
+    ],
+    "respuesta_correcta": "no saludable",
+    "origen_card": "w4-a29",
+    "origen_titulo": "Alimento y categoría"
+  },
+  {
+    "id": "P173",
+    "tema": "alimentacion",
+    "tipo": "multiple_choice",
+    "enunciado": "¿Cuál es un alimento saludable?",
+    "opciones": [
+      "manzana",
+      "bebida",
+      "papas fritas"
+    ],
+    "respuesta_correcta": "manzana",
+    "origen_card": "w4-a30",
+    "origen_titulo": "Opción correcta"
+  },
+  {
+    "id": "P174",
+    "tema": "alimentacion",
+    "tipo": "multiple_choice",
+    "enunciado": "¿Cuál es menos saludable?",
+    "opciones": [
+      "ensalada",
+      "torta",
+      "pescado"
+    ],
+    "respuesta_correcta": "torta",
+    "origen_card": "w4-a30",
+    "origen_titulo": "Opción correcta"
+  },
+  {
+    "id": "P175",
+    "tema": "alimentacion",
+    "tipo": "multiple_choice",
+    "enunciado": "¿Qué alimento ayuda a crecer?",
+    "opciones": [
+      "leche",
+      "bebida",
+      "dulces"
+    ],
+    "respuesta_correcta": "leche",
+    "origen_card": "w4-a30",
+    "origen_titulo": "Opción correcta"
+  },
+  {
+    "id": "P176",
+    "tema": "alimentacion",
+    "tipo": "multiple_choice",
+    "enunciado": "¿Qué colación es mejor?",
+    "opciones": [
+      "fruta",
+      "papas fritas",
+      "golosinas"
+    ],
+    "respuesta_correcta": "fruta",
+    "origen_card": "w4-a30",
+    "origen_titulo": "Opción correcta"
+  },
+  {
+    "id": "P177",
+    "tema": "alimentacion",
+    "tipo": "multiple_choice",
+    "enunciado": "Las frutas son saludables.",
+    "opciones": [
+      "V",
+      "F"
+    ],
+    "respuesta_correcta": "V",
+    "origen_card": "w4-a31",
+    "origen_titulo": "Verdadero o falso"
+  },
+  {
+    "id": "P178",
+    "tema": "alimentacion",
+    "tipo": "multiple_choice",
+    "enunciado": "Las verduras ayudan al cuerpo.",
+    "opciones": [
+      "V",
+      "F"
+    ],
+    "respuesta_correcta": "V",
+    "origen_card": "w4-a31",
+    "origen_titulo": "Verdadero o falso"
+  },
+  {
+    "id": "P179",
+    "tema": "alimentacion",
+    "tipo": "multiple_choice",
+    "enunciado": "Comer muchas golosinas siempre es saludable.",
+    "opciones": [
+      "V",
+      "F"
+    ],
+    "respuesta_correcta": "F",
+    "origen_card": "w4-a31",
+    "origen_titulo": "Verdadero o falso"
+  },
+  {
+    "id": "P180",
+    "tema": "alimentacion",
+    "tipo": "multiple_choice",
+    "enunciado": "La leche puede ser parte de una alimentación saludable.",
+    "opciones": [
+      "V",
+      "F"
+    ],
+    "respuesta_correcta": "V",
+    "origen_card": "w4-a31",
+    "origen_titulo": "Verdadero o falso"
+  },
+  {
+    "id": "P181",
+    "tema": "alimentacion",
+    "tipo": "multiple_choice",
+    "enunciado": "La ensalada es un alimento saludable.",
+    "opciones": [
+      "V",
+      "F"
+    ],
+    "respuesta_correcta": "V",
+    "origen_card": "w4-a31",
+    "origen_titulo": "Verdadero o falso"
+  },
+  {
+    "id": "P182",
+    "tema": "alimentacion",
+    "tipo": "multiple_choice",
+    "enunciado": "La bebida y la comida chatarra son mejores que la fruta.",
+    "opciones": [
+      "V",
+      "F"
+    ],
+    "respuesta_correcta": "F",
+    "origen_card": "w4-a31",
+    "origen_titulo": "Verdadero o falso"
+  },
+  {
+    "id": "P183",
+    "tema": "alimentacion",
+    "tipo": "multiple_choice",
+    "enunciado": "Caso 1",
+    "opciones": [
+      "una manzana y leche",
+      "papas fritas y bebida"
+    ],
+    "respuesta_correcta": "papas fritas y bebida",
+    "origen_card": "w4-a34",
+    "origen_titulo": "Colación NO saludable"
+  },
+  {
+    "id": "P184",
+    "tema": "alimentacion",
+    "tipo": "multiple_choice",
+    "enunciado": "Caso 2",
+    "opciones": [
+      "yogur y fruta",
+      "torta y bebida"
+    ],
+    "respuesta_correcta": "torta y bebida",
+    "origen_card": "w4-a34",
+    "origen_titulo": "Colación NO saludable"
+  },
+  {
+    "id": "P185",
+    "tema": "alimentacion",
+    "tipo": "multiple_choice",
+    "enunciado": "Caso 3",
+    "opciones": [
+      "ensalada de frutas",
+      "dulces y chocolates"
+    ],
+    "respuesta_correcta": "dulces y chocolates",
+    "origen_card": "w4-a34",
+    "origen_titulo": "Colación NO saludable"
+  },
+  {
+    "id": "P186",
+    "tema": "alimentacion",
+    "tipo": "multiple_choice",
+    "enunciado": "La manzana es...",
+    "opciones": [
+      "saludable",
+      "no saludable"
+    ],
+    "respuesta_correcta": "saludable",
+    "origen_card": "w4-a35",
+    "origen_titulo": "Saludable o no saludable"
+  },
+  {
+    "id": "P187",
+    "tema": "alimentacion",
+    "tipo": "multiple_choice",
+    "enunciado": "La bebida es...",
+    "opciones": [
+      "saludable",
+      "no saludable"
+    ],
+    "respuesta_correcta": "no saludable",
+    "origen_card": "w4-a35",
+    "origen_titulo": "Saludable o no saludable"
+  },
+  {
+    "id": "P188",
+    "tema": "alimentacion",
+    "tipo": "multiple_choice",
+    "enunciado": "La ensalada es...",
+    "opciones": [
+      "saludable",
+      "no saludable"
+    ],
+    "respuesta_correcta": "saludable",
+    "origen_card": "w4-a35",
+    "origen_titulo": "Saludable o no saludable"
+  },
+  {
+    "id": "P189",
+    "tema": "alimentacion",
+    "tipo": "multiple_choice",
+    "enunciado": "Las papas fritas son...",
+    "opciones": [
+      "saludables",
+      "no saludables"
+    ],
+    "respuesta_correcta": "no saludables",
+    "origen_card": "w4-a35",
+    "origen_titulo": "Saludable o no saludable"
+  },
+  {
+    "id": "P190",
+    "tema": "alimentacion",
+    "tipo": "multiple_choice",
+    "enunciado": "La leche es...",
+    "opciones": [
+      "saludable",
+      "no saludable"
+    ],
+    "respuesta_correcta": "saludable",
+    "origen_card": "w4-a35",
+    "origen_titulo": "Saludable o no saludable"
+  },
+  {
+    "id": "P191",
+    "tema": "alimentacion",
+    "tipo": "multiple_choice",
+    "enunciado": "La torta es...",
+    "opciones": [
+      "saludable",
+      "no saludable"
+    ],
+    "respuesta_correcta": "no saludable",
+    "origen_card": "w4-a35",
+    "origen_titulo": "Saludable o no saludable"
+  },
+  {
+    "id": "P192",
+    "tema": "alimentacion",
+    "tipo": "multiple_choice",
+    "enunciado": "Para una colación en el colegio:",
+    "opciones": [
+      "fruta",
+      "papas fritas"
+    ],
+    "respuesta_correcta": "fruta",
+    "origen_card": "w4-a36",
+    "origen_titulo": "¿Qué elegirías?"
+  },
+  {
+    "id": "P193",
+    "tema": "alimentacion",
+    "tipo": "multiple_choice",
+    "enunciado": "Para tomar con el almuerzo:",
+    "opciones": [
+      "agua",
+      "bebida"
+    ],
+    "respuesta_correcta": "agua",
+    "origen_card": "w4-a36",
+    "origen_titulo": "¿Qué elegirías?"
+  },
+  {
+    "id": "P194",
+    "tema": "alimentacion",
+    "tipo": "multiple_choice",
+    "enunciado": "Para crecer sano:",
+    "opciones": [
+      "verduras",
+      "dulces todos los días"
+    ],
+    "respuesta_correcta": "verduras",
+    "origen_card": "w4-a36",
+    "origen_titulo": "¿Qué elegirías?"
+  },
+  {
+    "id": "P195",
+    "tema": "repaso_final",
+    "tipo": "open_text",
+    "enunciado": "¿Con qué sentido olemos?",
+    "opciones": [],
+    "respuesta_correcta": "",
+    "origen_card": "w5-a37",
+    "origen_titulo": "Repaso general"
+  },
+  {
+    "id": "P196",
+    "tema": "repaso_final",
+    "tipo": "open_text",
+    "enunciado": "¿Qué parte del cuerpo usamos para ver?",
+    "opciones": [],
+    "respuesta_correcta": "",
+    "origen_card": "w5-a37",
+    "origen_titulo": "Repaso general"
+  },
+  {
+    "id": "P197",
+    "tema": "repaso_final",
+    "tipo": "open_text",
+    "enunciado": "Nombra una forma de cuidar los oídos.",
+    "opciones": [],
+    "respuesta_correcta": "",
+    "origen_card": "w5-a37",
+    "origen_titulo": "Repaso general"
+  },
+  {
+    "id": "P198",
+    "tema": "repaso_final",
+    "tipo": "open_text",
+    "enunciado": "Nombra una actividad física.",
+    "opciones": [],
+    "respuesta_correcta": "",
+    "origen_card": "w5-a37",
+    "origen_titulo": "Repaso general"
+  },
+  {
+    "id": "P199",
+    "tema": "repaso_final",
+    "tipo": "open_text",
+    "enunciado": "Nombra un alimento saludable.",
+    "opciones": [],
+    "respuesta_correcta": "",
+    "origen_card": "w5-a37",
+    "origen_titulo": "Repaso general"
+  },
+  {
+    "id": "P200",
+    "tema": "repaso_final",
+    "tipo": "open_text",
+    "enunciado": "Nombra un alimento no saludable.",
+    "opciones": [],
+    "respuesta_correcta": "",
+    "origen_card": "w5-a37",
+    "origen_titulo": "Repaso general"
+  },
+  {
+    "id": "P201",
+    "tema": "repaso_final",
+    "tipo": "open_text",
+    "enunciado": "¿Qué sentido usamos para escuchar?",
+    "opciones": [],
+    "respuesta_correcta": "",
+    "origen_card": "w5-a37",
+    "origen_titulo": "Repaso general"
+  },
+  {
+    "id": "P202",
+    "tema": "repaso_final",
+    "tipo": "open_text",
+    "enunciado": "¿Qué debemos hacer antes de comer?",
+    "opciones": [],
+    "respuesta_correcta": "",
+    "origen_card": "w5-a37",
+    "origen_titulo": "Repaso general"
+  },
+  {
+    "id": "P203",
+    "tema": "repaso_final",
+    "tipo": "open_text",
+    "enunciado": "¿Por qué es bueno moverse?",
+    "opciones": [],
+    "respuesta_correcta": "",
+    "origen_card": "w5-a37",
+    "origen_titulo": "Repaso general"
+  },
+  {
+    "id": "P204",
+    "tema": "repaso_final",
+    "tipo": "open_text",
+    "enunciado": "¿Qué es mejor para una colación: fruta o golosinas?",
+    "opciones": [],
+    "respuesta_correcta": "",
+    "origen_card": "w5-a37",
+    "origen_titulo": "Repaso general"
+  },
+  {
+    "id": "P205",
+    "tema": "repaso_final",
+    "tipo": "multiple_choice",
+    "enunciado": "Con la nariz",
+    "opciones": [
+      "olemos",
+      "vemos",
+      "escuchamos",
+      "sentimos",
+      "probamos sabores"
+    ],
+    "respuesta_correcta": "olemos",
+    "origen_card": "w5-a38",
+    "origen_titulo": "Oración correcta"
+  },
+  {
+    "id": "P206",
+    "tema": "repaso_final",
+    "tipo": "multiple_choice",
+    "enunciado": "Con los ojos",
+    "opciones": [
+      "olemos",
+      "vemos",
+      "escuchamos",
+      "sentimos",
+      "probamos sabores"
+    ],
+    "respuesta_correcta": "vemos",
+    "origen_card": "w5-a38",
+    "origen_titulo": "Oración correcta"
+  },
+  {
+    "id": "P207",
+    "tema": "repaso_final",
+    "tipo": "multiple_choice",
+    "enunciado": "Con los oídos",
+    "opciones": [
+      "probamos sabores",
+      "escuchamos",
+      "vemos",
+      "olemos",
+      "sentimos"
+    ],
+    "respuesta_correcta": "escuchamos",
+    "origen_card": "w5-a38",
+    "origen_titulo": "Oración correcta"
+  },
+  {
+    "id": "P208",
+    "tema": "repaso_final",
+    "tipo": "multiple_choice",
+    "enunciado": "Con la lengua",
+    "opciones": [
+      "probamos sabores",
+      "vemos",
+      "escuchamos",
+      "olemos",
+      "sentimos"
+    ],
+    "respuesta_correcta": "probamos sabores",
+    "origen_card": "w5-a38",
+    "origen_titulo": "Oración correcta"
+  },
+  {
+    "id": "P209",
+    "tema": "repaso_final",
+    "tipo": "multiple_choice",
+    "enunciado": "Con la piel",
+    "opciones": [
+      "olemos",
+      "probamos sabores",
+      "vemos",
+      "sentimos",
+      "escuchamos"
+    ],
+    "respuesta_correcta": "sentimos",
+    "origen_card": "w5-a38",
+    "origen_titulo": "Oración correcta"
+  },
+  {
+    "id": "P210",
+    "tema": "repaso_final",
+    "tipo": "multiple_choice",
+    "enunciado": "Con los oídos / ojos vemos.",
+    "opciones": [
+      "oídos",
+      "ojos"
+    ],
+    "respuesta_correcta": "oídos",
+    "origen_card": "w5-a39",
+    "origen_titulo": "Encuentra el error"
+  },
+  {
+    "id": "P211",
+    "tema": "repaso_final",
+    "tipo": "multiple_choice",
+    "enunciado": "Con la nariz / lengua olemos.",
+    "opciones": [
+      "nariz",
+      "lengua"
+    ],
+    "respuesta_correcta": "lengua",
+    "origen_card": "w5-a39",
+    "origen_titulo": "Encuentra el error"
+  },
+  {
+    "id": "P212",
+    "tema": "repaso_final",
+    "tipo": "multiple_choice",
+    "enunciado": "La actividad física / torta ayuda a cuidar el cuerpo.",
+    "opciones": [
+      "actividad física",
+      "torta"
+    ],
+    "respuesta_correcta": "torta",
+    "origen_card": "w5-a39",
+    "origen_titulo": "Encuentra el error"
+  },
+  {
+    "id": "P213",
+    "tema": "repaso_final",
+    "tipo": "multiple_choice",
+    "enunciado": "La manzana / bebida es una mejor colación.",
+    "opciones": [
+      "manzana",
+      "bebida"
+    ],
+    "respuesta_correcta": "bebida",
+    "origen_card": "w5-a39",
+    "origen_titulo": "Encuentra el error"
+  },
+  {
+    "id": "P214",
+    "tema": "repaso_final",
+    "tipo": "multiple_choice",
+    "enunciado": "No debemos escuchar música muy fuerte / suave.",
+    "opciones": [
+      "fuerte",
+      "suave"
+    ],
+    "respuesta_correcta": "suave",
+    "origen_card": "w5-a39",
+    "origen_titulo": "Encuentra el error"
+  },
+  {
+    "id": "P215",
+    "tema": "repaso_final",
+    "tipo": "multiple_choice",
+    "enunciado": "Vista",
+    "opciones": [
+      "ver una mariposa",
+      "oler una flor",
+      "escuchar una campana"
+    ],
+    "respuesta_correcta": "ver una mariposa",
+    "origen_card": "w5-a40",
+    "origen_titulo": "Completa el cuadro"
+  },
+  {
+    "id": "P216",
+    "tema": "repaso_final",
+    "tipo": "multiple_choice",
+    "enunciado": "Oído",
+    "opciones": [
+      "escuchar una canción",
+      "sentir una manta",
+      "probar una naranja"
+    ],
+    "respuesta_correcta": "escuchar una canción",
+    "origen_card": "w5-a40",
+    "origen_titulo": "Completa el cuadro"
+  },
+  {
+    "id": "P217",
+    "tema": "repaso_final",
+    "tipo": "multiple_choice",
+    "enunciado": "Olfato",
+    "opciones": [
+      "oler pan recién hecho",
+      "ver colores",
+      "saltar"
+    ],
+    "respuesta_correcta": "oler pan recién hecho",
+    "origen_card": "w5-a40",
+    "origen_titulo": "Completa el cuadro"
+  },
+  {
+    "id": "P218",
+    "tema": "repaso_final",
+    "tipo": "multiple_choice",
+    "enunciado": "Gusto",
+    "opciones": [
+      "probar una naranja",
+      "mirar una película",
+      "escuchar un timbre"
+    ],
+    "respuesta_correcta": "probar una naranja",
+    "origen_card": "w5-a40",
+    "origen_titulo": "Completa el cuadro"
+  },
+  {
+    "id": "P219",
+    "tema": "repaso_final",
+    "tipo": "multiple_choice",
+    "enunciado": "Tacto",
+    "opciones": [
+      "sentir una manta suave",
+      "oler sopa",
+      "ver un arcoíris"
+    ],
+    "respuesta_correcta": "sentir una manta suave",
+    "origen_card": "w5-a40",
+    "origen_titulo": "Completa el cuadro"
+  },
+  {
+    "id": "P220",
+    "tema": "repaso_final",
+    "tipo": "multiple_choice",
+    "enunciado": "Cuidado de los sentidos",
+    "opciones": [
+      "leer con buena luz",
+      "gritar al oído",
+      "tocar cosas calientes"
+    ],
+    "respuesta_correcta": "leer con buena luz",
+    "origen_card": "w5-a40",
+    "origen_titulo": "Completa el cuadro"
+  },
+  {
+    "id": "P221",
+    "tema": "repaso_final",
+    "tipo": "multiple_choice",
+    "enunciado": "Actividad física",
+    "opciones": [
+      "saltar",
+      "dormir",
+      "ver TV todo el día"
+    ],
+    "respuesta_correcta": "saltar",
+    "origen_card": "w5-a40",
+    "origen_titulo": "Completa el cuadro"
+  },
+  {
+    "id": "P222",
+    "tema": "repaso_final",
+    "tipo": "multiple_choice",
+    "enunciado": "Alimento saludable",
+    "opciones": [
+      "manzana",
+      "bebida",
+      "torta"
+    ],
+    "respuesta_correcta": "manzana",
+    "origen_card": "w5-a40",
+    "origen_titulo": "Completa el cuadro"
+  },
+  {
+    "id": "P223",
+    "tema": "repaso_final",
+    "tipo": "multiple_choice",
+    "enunciado": "¿Cuál es un sentido?",
+    "opciones": [
+      "correr",
+      "gusto",
+      "ensalada"
+    ],
+    "respuesta_correcta": "gusto",
+    "origen_card": "w5-final-1",
+    "origen_titulo": "Alternativas"
+  },
+  {
+    "id": "P224",
+    "tema": "repaso_final",
+    "tipo": "multiple_choice",
+    "enunciado": "¿Con qué parte del cuerpo vemos?",
+    "opciones": [
+      "ojos",
+      "nariz",
+      "manos"
+    ],
+    "respuesta_correcta": "ojos",
+    "origen_card": "w5-final-1",
+    "origen_titulo": "Alternativas"
+  },
+  {
+    "id": "P225",
+    "tema": "repaso_final",
+    "tipo": "multiple_choice",
+    "enunciado": "¿Qué acción cuida los oídos?",
+    "opciones": [
+      "escuchar música muy fuerte",
+      "usar volumen moderado",
+      "gritar cerca del oído"
+    ],
+    "respuesta_correcta": "usar volumen moderado",
+    "origen_card": "w5-final-1",
+    "origen_titulo": "Alternativas"
+  },
+  {
+    "id": "P226",
+    "tema": "repaso_final",
+    "tipo": "multiple_choice",
+    "enunciado": "¿Cuál es una actividad física?",
+    "opciones": [
+      "saltar",
+      "dormir",
+      "mirar una pared"
+    ],
+    "respuesta_correcta": "saltar",
+    "origen_card": "w5-final-1",
+    "origen_titulo": "Alternativas"
+  },
+  {
+    "id": "P227",
+    "tema": "repaso_final",
+    "tipo": "multiple_choice",
+    "enunciado": "¿Cuál alimento es saludable?",
+    "opciones": [
+      "manzana",
+      "bebida",
+      "papas fritas"
+    ],
+    "respuesta_correcta": "manzana",
+    "origen_card": "w5-final-1",
+    "origen_titulo": "Alternativas"
+  },
+  {
+    "id": "P228",
+    "tema": "repaso_final",
+    "tipo": "multiple_choice",
+    "enunciado": "¿Con qué sentido oímos una campana?",
+    "opciones": [
+      "tacto",
+      "oído",
+      "gusto"
+    ],
+    "respuesta_correcta": "oído",
+    "origen_card": "w5-final-1",
+    "origen_titulo": "Alternativas"
+  },
+  {
+    "id": "P229",
+    "tema": "repaso_final",
+    "tipo": "multiple_choice",
+    "enunciado": "¿Qué debemos hacer antes de comer?",
+    "opciones": [
+      "lavar las manos",
+      "jugar con tierra",
+      "tocar cosas sucias"
+    ],
+    "respuesta_correcta": "lavar las manos",
+    "origen_card": "w5-final-1",
+    "origen_titulo": "Alternativas"
+  },
+  {
+    "id": "P230",
+    "tema": "repaso_final",
+    "tipo": "multiple_choice",
+    "enunciado": "¿Qué alimento NO es saludable?",
+    "opciones": [
+      "ensalada",
+      "leche",
+      "torta"
+    ],
+    "respuesta_correcta": "torta",
+    "origen_card": "w5-final-1",
+    "origen_titulo": "Alternativas"
+  },
+  {
+    "id": "P231",
+    "tema": "repaso_final",
+    "tipo": "multiple_choice",
+    "enunciado": "Con la lengua sentimos sabores.",
+    "opciones": [
+      "V",
+      "F"
+    ],
+    "respuesta_correcta": "V",
+    "origen_card": "w5-final-2",
+    "origen_titulo": "Verdadero o falso"
+  },
+  {
+    "id": "P232",
+    "tema": "repaso_final",
+    "tipo": "multiple_choice",
+    "enunciado": "La nariz sirve para escuchar.",
+    "opciones": [
+      "V",
+      "F"
+    ],
+    "respuesta_correcta": "F",
+    "origen_card": "w5-final-2",
+    "origen_titulo": "Verdadero o falso"
+  },
+  {
+    "id": "P233",
+    "tema": "repaso_final",
+    "tipo": "multiple_choice",
+    "enunciado": "Mover el cuerpo es bueno para la salud.",
+    "opciones": [
+      "V",
+      "F"
+    ],
+    "respuesta_correcta": "V",
+    "origen_card": "w5-final-2",
+    "origen_titulo": "Verdadero o falso"
+  },
+  {
+    "id": "P234",
+    "tema": "repaso_final",
+    "tipo": "multiple_choice",
+    "enunciado": "Las frutas son saludables.",
+    "opciones": [
+      "V",
+      "F"
+    ],
+    "respuesta_correcta": "V",
+    "origen_card": "w5-final-2",
+    "origen_titulo": "Verdadero o falso"
+  },
+  {
+    "id": "P235",
+    "tema": "repaso_final",
+    "tipo": "multiple_choice",
+    "enunciado": "Mirar directo al sol cuida los ojos.",
+    "opciones": [
+      "V",
+      "F"
+    ],
+    "respuesta_correcta": "F",
+    "origen_card": "w5-final-2",
+    "origen_titulo": "Verdadero o falso"
+  },
+  {
+    "id": "P236",
+    "tema": "repaso_final",
+    "tipo": "multiple_choice",
+    "enunciado": "La comida chatarra es mejor que la fruta.",
+    "opciones": [
+      "V",
+      "F"
+    ],
+    "respuesta_correcta": "F",
+    "origen_card": "w5-final-2",
+    "origen_titulo": "Verdadero o falso"
+  },
+  {
+    "id": "P237",
+    "tema": "repaso_final",
+    "tipo": "open_text",
+    "enunciado": "Escribe los cinco sentidos.",
+    "opciones": [],
+    "respuesta_correcta": "",
+    "origen_card": "w5-final-3",
+    "origen_titulo": "Responde"
+  },
+  {
+    "id": "P238",
+    "tema": "repaso_final",
+    "tipo": "open_text",
+    "enunciado": "Escribe una medida para cuidar los ojos.",
+    "opciones": [],
+    "respuesta_correcta": "",
+    "origen_card": "w5-final-3",
+    "origen_titulo": "Responde"
+  },
+  {
+    "id": "P239",
+    "tema": "repaso_final",
+    "tipo": "open_text",
+    "enunciado": "Escribe una actividad física.",
+    "opciones": [],
+    "respuesta_correcta": "",
+    "origen_card": "w5-final-3",
+    "origen_titulo": "Responde"
+  },
+  {
+    "id": "P240",
+    "tema": "repaso_final",
+    "tipo": "open_text",
+    "enunciado": "Escribe dos alimentos saludables.",
+    "opciones": [],
+    "respuesta_correcta": "",
+    "origen_card": "w5-final-3",
+    "origen_titulo": "Responde"
+  }
+]

@@ -1,0 +1,44 @@
+
+### Rosas a Naranjas
+| Color | Hexadecimal |
+| :--- | :--- |
+| Rosa Pastel | `#FF77CC` |
+| Magenta Brillante | `#FF00FF` |
+| Fucsia | `#FF0099` |
+| Rosa Intenso | `#FF1166` |
+| Coral Rojizo | `#FF4455` |
+| Rojo Neón | `#FF0044` |
+| Rojo Puro | `#FF0000` |
+| Naranja Rojizo | `#FF4400` |
+| Naranja | `#FF6600` |
+| Ambar | `#FF9900` |
+
+---
+
+### Morados a Celestes
+| Color | Hexadecimal |
+| Púrpura | `#9900CC` |
+| Violeta | `#9900FF` |
+| Índigo | `#6600CC` |
+| Azul Real | `#4400FF` |
+| Azul Eléctrico | `#2200FF` |
+| Azul Puro | `#0000FF` |
+| Azul Brillante | `#0066FF` |
+| Azul Cielo | `#0099FF` |
+| Celeste | `#33CCFF` |
+| Cian | `#00FFFF` |
+
+---
+
+### Amarillos a Verdes
+| Color | Hexadecimal |
+| Amarillo Oro | `#FFCC00` |
+| Amarillo Canario | `#FFFF00` |
+| Amarillo Limón | `#EEFF00` |
+| Verde Lima Claro | `#CCFF33` |
+| Verde Lima | `#99FF00` |
+| Verde Brillante | `#66FF33` |
+| Verde Neón | `#00FF00` |
+| Verde Primavera | `#00FF66` |
+| Turquesa | `#00FF99` |
+| Aguamarina | `#33FFCC` |

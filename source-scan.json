@@ -1,0 +1,268 @@
+{
+  "pages": [
+    {
+      "file": "C:\\Users\\pablo\\Desktop\\2026 ciencias naturales\\index.html",
+      "title": "Olivia's Family English Show",
+      "lang": "en",
+      "google_fonts": [
+        "Baloo 2",
+        "Chewy"
+      ],
+      "font_declarations": [
+        "\"Baloo 2\", \"Trebuchet MS\", sans-serif",
+        "\"Chewy\", \"Georgia\", cursive"
+      ],
+      "css_variables": [
+        "--bg-deep",
+        "--bg-berry",
+        "--bg-plum",
+        "--pink-hot",
+        "--pink-candy",
+        "--pink-soft",
+        "--violet-bright",
+        "--lavender",
+        "--gold",
+        "--pearl",
+        "--cyan-spark",
+        "--shadow-xl",
+        "--shadow-card",
+        "--radius-xl",
+        "--radius-lg",
+        "--radius-md",
+        "--panel",
+        "--panel-strong",
+        "--border",
+        "--success",
+        "--danger",
+        "--dur",
+        "--delay",
+        "--x",
+        "--y",
+        "--size"
+      ],
+      "screen_ids": [
+        "screen-grid"
+      ],
+      "screen_values": [
+        "map",
+        "game",
+        "victory",
+        "landing"
+      ],
+      "functions": [
+        "renderBanner",
+        "render",
+        "renderLanding",
+        "renderMap",
+        "renderGame",
+        "renderQuestionBody",
+        "renderVictory",
+        "startExperience",
+        "goToMap",
+        "focusFamilyMember",
+        "startRound",
+        "nextStep",
+        "answerPhotoWord",
+        "answerWordPhoto",
+        "answerTrueFalse",
+        "answerListen",
+        "repeatCurrentWord",
+        "endRound",
+        "showToast",
+        "toggleAudio"
+      ],
+      "modes_or_mechanics": [
+        "photo-word",
+        "word-photo",
+        "true-false",
+        "memory",
+        "listen"
+      ],
+      "storage_keys": [
+        "family-show-player-name",
+        "family-show-score",
+        "family-show-stars",
+        "family-show-last-mode"
+      ],
+      "local_assets": [
+        "wallpaper01.png",
+        "imagenes/tati maria ester.png",
+        "imagenes/abu maria elisa.png",
+        "imagenes/tata egon.png",
+        "imagenes/mama.png",
+        "imagenes/papa.png",
+        "imagenes/tia barbara.png",
+        "imagenes/tia fran.png",
+        "imagenes/tia gabita.png",
+        "imagenes/tio christian.png",
+        "imagenes/tio nicolas.png",
+        "imagenes/Olivia.png",
+        "imagenes/abi gabriel.png",
+        "imagenes/prima celeste.png",
+        "imagenes/prima vicenta.png",
+        "imagenes/primo lucas.png",
+        "imagenes/primo luciano.png",
+        "imagenes/mascota benito.png",
+        "imagenes/mascota chiki.png",
+        "carpeta png/png/01.png",
+        "carpeta png/png/06.png",
+        "carpeta png/png/12.png",
+        "carpeta png/png/16.png",
+        "carpeta png/png/24.png",
+        "carpeta png/png/30.png",
+        "hello kitty music.mp3",
+        "hello kitty music 2.mp3",
+        "clear.mp3",
+        "error.mp3",
+        "winner stage.mp3",
+        "carpeta png/png/05.png",
+        "carpeta png/png/03.png",
+        "carpeta png/png/07.png",
+        "carpeta png/png/08.png",
+        "carpeta png/png/09.png",
+        "carpeta png/png/10.png"
+      ],
+      "counts": {
+        "animations": 13,
+        "gradients": 60,
+        "audio_calls": 8,
+        "render_functions": 6
+      },
+      "detected_features": [
+        "local-storage",
+        "speech-synthesis",
+        "audio-system",
+        "progress-bar",
+        "toast-feedback",
+        "confetti-or-burst",
+        "map-or-hub",
+        "avatar-selection",
+        "memory-mode"
+      ]
+    },
+    {
+      "file": "C:\\Users\\pablo\\Desktop\\2026 ciencias naturales\\index hunters moving spectacular.html",
+      "title": "Academia HUNTR/X ✨ Demon Hunter Math",
+      "lang": "es",
+      "google_fonts": [
+        "Outfit"
+      ],
+      "font_declarations": [
+        "'Hunters K-Pop'",
+        "var(--font-body)",
+        "var(--font-hunters)",
+        "inherit"
+      ],
+      "css_variables": [
+        "--violet",
+        "--pink",
+        "--cyan",
+        "--gold",
+        "--green",
+        "--red",
+        "--white",
+        "--dark",
+        "--dark2",
+        "--font-hunters",
+        "--font-body",
+        "--olivia-gold",
+        "--olivia-pink",
+        "--olivia-cyan",
+        "--card-scale",
+        "--card-y",
+        "--tx",
+        "--ty",
+        "--hcolor",
+        "--hcolor2",
+        "--hglow"
+      ],
+      "screen_ids": [
+        "screen-landing",
+        "screen-select",
+        "screen-game",
+        "screen-flash"
+      ],
+      "screen_values": [
+        "game"
+      ],
+      "functions": [
+        "showConcertCombo",
+        "startGameEntrance",
+        "showHeroEntrance",
+        "showScreen",
+        "startGame",
+        "renderLanding",
+        "renderSelect",
+        "showContinuePrompt",
+        "startHeroFlow",
+        "renderGame",
+        "nextEx",
+        "renderEx",
+        "renderSequence",
+        "renderCantinela",
+        "renderTrain",
+        "renderFingerSum",
+        "renderPlusJump",
+        "renderFallback",
+        "endRound",
+        "showVictoryPoster",
+        "goSelect",
+        "startMusic"
+      ],
+      "modes_or_mechanics": [
+        "sequence",
+        "cantinela",
+        "train",
+        "fingersum",
+        "plusjump"
+      ],
+      "storage_keys": [
+        "huntrx_playername"
+      ],
+      "local_assets": [
+        "Hunters K-Pop.otf",
+        "FINAL.jpg",
+        "Screenshot-2025-07-31-at-10.35.54-AM-1536x529.png",
+        "huntr-x-girl-group-3840x2160-23691.jpg",
+        "kpop-demon-hunters-3840x2160-23703.jpg",
+        "background kpop 2.png",
+        "rumi png.png",
+        "mira png.png",
+        "zoey png.png",
+        "rumi small.png",
+        "zoey small.png",
+        "mira small.png",
+        "jinu samll.png",
+        "baby small.png",
+        "romance small.png",
+        "mystery small.png",
+        "abby small.png",
+        "derpy tiger small.png",
+        "freesound_crunchpixstudio-clear-combo-8-394509.mp3",
+        "freesound_crunchpixstudio-error-408435.mp3",
+        "superpuyofans1234-winner-game-sound-404167.mp3",
+        "01 - Golden - HUNTR_X.mp3",
+        "02 - How It_s Done - HUNTR_X.mp3",
+        "03 - Free - Rumi.mp3",
+        "04 - Takedown - HUNTR_X.mp3",
+        "05 - What It Sounds Like - HUNTR_X.mp3"
+      ],
+      "counts": {
+        "animations": 62,
+        "gradients": 73,
+        "audio_calls": 4,
+        "render_functions": 10
+      },
+      "detected_features": [
+        "local-storage",
+        "audio-system",
+        "canvas-particles",
+        "progress-bar",
+        "toast-feedback",
+        "confetti-or-burst",
+        "avatar-selection",
+        "combo-system"
+      ]
+    }
+  ]
+}
