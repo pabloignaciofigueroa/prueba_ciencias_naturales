@@ -1721,6 +1721,7 @@ function App() {
   const errorSfxRef   = useRef(null);
   const levelSfxRef   = useRef(null);
   const musicReadyRef = useRef(false);
+  const musicStartPendingRef = useRef(false);
   const activeCharacter = findCharacter(selectedChar);
 
   function playAudio(audioRef, { reset=true } = {}) {
@@ -1728,47 +1729,93 @@ function App() {
     if(!audio) return;
     try {
       if(reset) audio.currentTime = 0;
-      const playPromise = audio.play();
-      if(playPromise && typeof playPromise.catch === 'function') playPromise.catch(()=>{});
+      return audio.play();
     } catch {}
+    return null;
   }
 
   function ensureBackgroundMusic() {
-    if(musicReadyRef.current) return;
-    musicReadyRef.current = true;
-    playAudio(bgMusicRef, { reset:false });
+    const audio = bgMusicRef.current;
+    if(!audio) return Promise.resolve(false);
+    if(!audio.paused && !audio.ended) {
+      musicReadyRef.current = true;
+      return Promise.resolve(true);
+    }
+    if(musicStartPendingRef.current) return Promise.resolve(false);
+    musicStartPendingRef.current = true;
+    const playPromise = playAudio(bgMusicRef, { reset:false });
+    if(playPromise && typeof playPromise.then === 'function') {
+      return playPromise
+        .then(()=>{
+          musicReadyRef.current = !audio.paused;
+          return musicReadyRef.current;
+        })
+        .catch(()=>{
+          musicReadyRef.current = false;
+          return false;
+        })
+        .finally(()=>{
+          musicStartPendingRef.current = false;
+        });
+    }
+    musicReadyRef.current = !audio.paused;
+    musicStartPendingRef.current = false;
+    return Promise.resolve(musicReadyRef.current);
   }
 
   useEffect(()=>{
     bgMusicRef.current = new Audio('SONIDOS/GAME MUSIC.mp3');
     bgMusicRef.current.loop = true;
     bgMusicRef.current.volume = 0.28;
+    bgMusicRef.current.preload = 'auto';
 
     buttonSfxRef.current = new Audio('SONIDOS/BUTTON PRESS.mp3');
     buttonSfxRef.current.volume = 0.62;
+    buttonSfxRef.current.preload = 'auto';
 
     clearSfxRef.current = new Audio('SONIDOS/CLEAR.mp3');
     clearSfxRef.current.volume = 0.72;
+    clearSfxRef.current.preload = 'auto';
 
     errorSfxRef.current = new Audio('SONIDOS/ERROR.mp3');
     errorSfxRef.current.volume = 0.78;
+    errorSfxRef.current.preload = 'auto';
 
     levelSfxRef.current = new Audio('SONIDOS/LEVEL PASSED.mp3');
     levelSfxRef.current.volume = 0.8;
+    levelSfxRef.current.preload = 'auto';
 
-    const handleFirstInteraction = () => ensureBackgroundMusic();
+    [bgMusicRef, buttonSfxRef, clearSfxRef, errorSfxRef, levelSfxRef].forEach(ref=>{
+      if(ref.current && typeof ref.current.load === 'function') ref.current.load();
+    });
+
+    const removeUnlockListeners = () => {
+      document.removeEventListener('pointerdown', handleFirstInteraction, true);
+      document.removeEventListener('touchstart', handleFirstInteraction, true);
+      document.removeEventListener('click', handleFirstInteraction, true);
+      document.removeEventListener('keydown', handleFirstInteraction, true);
+    };
+    const handleFirstInteraction = () => {
+      ensureBackgroundMusic().then(started=>{
+        if(started) removeUnlockListeners();
+      });
+    };
     const handleButtonSound = (event) => {
       const target = event.target instanceof Element ? event.target.closest('button') : null;
       if(!target) return;
       ensureBackgroundMusic();
-      playAudio(buttonSfxRef);
+      const playPromise = playAudio(buttonSfxRef);
+      if(playPromise && typeof playPromise.catch === 'function') playPromise.catch(()=>{});
     };
 
-    document.addEventListener('pointerdown', handleFirstInteraction, { once:true });
+    document.addEventListener('pointerdown', handleFirstInteraction, true);
+    document.addEventListener('touchstart', handleFirstInteraction, true);
+    document.addEventListener('click', handleFirstInteraction, true);
+    document.addEventListener('keydown', handleFirstInteraction, true);
     document.addEventListener('click', handleButtonSound, true);
 
     return ()=>{
-      document.removeEventListener('pointerdown', handleFirstInteraction, { once:true });
+      removeUnlockListeners();
       document.removeEventListener('click', handleButtonSound, true);
       [bgMusicRef, buttonSfxRef, clearSfxRef, errorSfxRef, levelSfxRef].forEach(ref=>{
         if(!ref.current) return;
